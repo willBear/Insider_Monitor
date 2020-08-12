@@ -1,29 +1,51 @@
 import requests
 import csv
-import time
-alpha_vantage_api_key = "2MFOB84WZRAIGROV"
-alpha_vantage_base_url ="https://www.alphavantage.co/query?function=OVERVIEW&symbol="
-company_dict =[]
-def Retrieve_Company_Info(symbol,count):
+import datetime,time
 
-    company_url = alpha_vantage_base_url + symbol + "&apikey=" + alpha_vantage_api_key
+# We store several API keys to make more API calls for free account, default is 12 per minute
+alpha_vantage_api_keys = ["2MFOB84WZRAIGROV", "4NE2ALTFPGT83V3S"]
+alpha_vantage_base_url = "https://www.alphavantage.co/query?function=OVERVIEW&symbol="
+
+company_dict = []
+failed_dict = []
+
+
+def Retrieve_Company_Info(symbol, cik_number, count):
+
+    alternate_index = count % 2
+    company_url = alpha_vantage_base_url + symbol + "&apikey=" + alpha_vantage_api_keys[alternate_index]
+
     req_ob = requests.get(company_url)
     # result contains list of nested dictionaries
     result = req_ob.json()
-    if len(result) > 0:
+    if len(result) > 1:
         company = result['Name']
         exchange = result['Exchange']
         country = result['Country']
         sector = result['Sector']
         marketCap = result['MarketCapitalization']
-        company_dict.append([company, exchange, country, sector, marketCap])
-        print(str(company_dict[:-1]))
-
-        # Alpha Vantage Only Allows 5 API calls per minute
-        time.sleep(12)
+        company_dict.append([company,symbol, exchange, country, sector, marketCap, cik_number])
+        print("The new added company and its associate information is:\n" +
+              str(company_dict[-1]))
     else:
         print("Failed loading ticker:" + symbol)
+        failed_dict.append([symbol, cik_number])
 
+    # Alpha Vantage Only Allows 5 API calls per minute
+    time.sleep(7)
+
+    return
+
+def write_to_csv():
+    file_name = "CIK_Company_" + str(datetime.date.today()) + '.csv'
+    fields = ['Company','Symbol','Exchange','Country','Sector','MarketCap','CIK_Number']
+
+    with open(file_name,'w') as csvfile:
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(fields)
+        csvwriter.writerows(company_dict)
+
+    print("Write to CSV Complete - The File name is: " + file_name)
 
     return
 
@@ -33,9 +55,13 @@ def main():
     for line in f:
         cik_dict = line.split("	")
         symbol = cik_dict[0]
-        Retrieve_Company_Info(symbol,count)
-        print("The ticker is:" + str(cik_dict[0]) + " and the ticker is: " + str(cik_dict[1]))
+        cik_number = cik_dict[1][:-2]
+        Retrieve_Company_Info(symbol, cik_number, count)
+        print("The symbol is: " + str(cik_dict[0]) + " and the ticker is: " + str(cik_dict[1]))
         count += 1
+
+    write_to_csv()
+
+
 if __name__ == "__main__":
     main()
-
