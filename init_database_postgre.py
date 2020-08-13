@@ -128,12 +128,36 @@ def load_db_credential_info(f_name_path):
     lines = lines[0].split(',')
     return lines
 
+
 def load_txt_file(f_name_path):
     cik_dictionary = []
+    now = datetime.datetime.utcnow()
+    f = open(f_name_path, 'r')
+    for line in f:
+        cik_pairs = line.split("\t")
 
+        symbol = cik_pairs[0]
 
+        # we get rid of the \n at the end of the variable
+        cik_number = cik_pairs[1][:-2]
 
+        cik_dictionary.append([symbol, cik_number, now])
+
+        print("The last added Symbol and CIK numbers are:" + str(cik_dictionary[-1]))
     return cik_dictionary
+
+
+def insert_into_companies(cik_numbers, db_host, db_user, db_password, db_name):
+    # Connect to our PostgreSQL database
+    conn = psycopg2.connect(host=db_host, database=db_name, user=db_user, password=db_password)
+
+    column_str = ('symbol, ciknumber,created_date')
+    insert_str = ("%s," * 3)[:-1]
+    final_str = "INSERT INTO companies (%s) VALUES (%s)" % (column_str, insert_str)
+    with conn:
+        cur = conn.cursor()
+        cur.executemany(final_str, cik_numbers)
+
 
 def main():
     # name of our database credential files (.txt)
@@ -155,7 +179,11 @@ def main():
     create_mkt_tables([db_host, db_user, db_password, db_name])
 
     # After table is created, we update the database with CIK numbers and its respective tickers
-    cik_numbers = load_txt_file(cik_file)
+    cik_dictionary = load_txt_file(cik_file)
+
+    # insert_int
+    insert_into_companies(cik_dictionary, db_host, db_user, db_password, db_name)
+
 
 if __name__ == "__main__":
     main()
