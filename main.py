@@ -17,7 +17,17 @@ def Retrieve_Company_Info(symbol, cik_number, count):
     req_ob = requests.get(company_url)
     # result contains list of nested dictionaries
     result = req_ob.json()
-    if len(result) > 1:
+
+    # We catch for reaching frequency capacity, if we found that there is a freq limit, we would wait 10 seconds
+    # And request the same thing
+
+    while ('Note' in result):
+        time.sleep(10)
+        req_ob = requests.get(company_url)
+        # result contains list of nested dictionaries
+        result = req_ob.json()
+
+    if bool(result) is False:
         company = result['Name']
         company = company.replace(",", "")
         exchange = result['Exchange']
@@ -56,6 +66,7 @@ def write_to_csv():
     return
 
 
+
 def main():
     f = open("ticker.txt", "r")
     count = 0
@@ -64,8 +75,8 @@ def main():
         cik_dict = line.split("	")
         symbol = cik_dict[0]
         cik_number = cik_dict[1][:-2]
-        Retrieve_Company_Info(symbol, cik_number, count)
         print("The symbol is: " + str(cik_dict[0]) + " and the ticker is: " + str(cik_dict[1]))
+        Retrieve_Company_Info(symbol, cik_number, count)
         count += 1
 
     write_to_csv()
