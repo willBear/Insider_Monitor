@@ -164,7 +164,7 @@ def main():
     db_credential_info = "database_info.txt"
 
     # define the cik file
-    cik_file = "test.txt"
+    cik_file = "ticker.txt"
 
     # create a path version of our text file
     db_credential_info_p = '/' + db_credential_info
