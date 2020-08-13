@@ -7,6 +7,7 @@ Created on Tue Jul 10 14:32:51 2018
 
 import psycopg2
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
+import datetime
 import os
 
 
@@ -80,31 +81,28 @@ def create_mkt_tables(db_credential_info):
     conn = None
 
     if check_db_exists(db_credential_info):
-        commands = (
-            """
+        command = """
             CREATE TABLE companies (
-              id SERIAL PRIMARY KEY,
-              company TEXT NOT NULL,
-              symbol TEXT NOT NULL,
-              exchange VARCHAR(64) NULL,
-              country VARCHAR(64) NULL,
-              sector VARCHAR(64) NULL,
-              marketcap integer NULL,
-              cikNumber integer NOT NULL,
-              created_date TIMESTAMP NOT NULL,
-              last_updated_date TIMESTAMP NOT NULL
-              )
+            id SERIAL PRIMARY KEY,
+            company TEXT NULL,
+            symbol TEXT UNIQUE NOT NULL,
+            exchange VARCHAR(64) NULL,
+            country VARCHAR(64) NULL,
+            sector VARCHAR(64) NULL,
+            marketcap integer NULL,
+            cikNumber integer NOT NULL,
+            created_date TIMESTAMP NOT NULL,
+            last_updated_date TIMESTAMP NULL)
             """
-            )
         try:
-            for command in commands:
-                print('Building tables.')
-                conn = psycopg2.connect(host=db_host, database=db_name, user=db_user, password=db_password)
-                cur = conn.cursor()
-                cur.execute(command)
-                # need to commit this change
-                conn.commit()
-                cur.close()
+            print('Building tables.')
+            conn = psycopg2.connect(host=db_host, database=db_name, user=db_user, password=db_password)
+            cur = conn.cursor()
+            cur.execute(command)
+
+            # need to commit this change
+            conn.commit()
+            cur.close()
         except (Exception, psycopg2.DatabaseError) as error:
             print(error)
             cur.close()
@@ -130,10 +128,20 @@ def load_db_credential_info(f_name_path):
     lines = lines[0].split(',')
     return lines
 
+def load_txt_file(f_name_path):
+    cik_dictionary = []
+
+
+
+    return cik_dictionary
 
 def main():
     # name of our database credential files (.txt)
     db_credential_info = "database_info.txt"
+
+    # define the cik file
+    cik_file = "test.txt"
+
     # create a path version of our text file
     db_credential_info_p = '/' + db_credential_info
 
@@ -146,6 +154,8 @@ def main():
     # second lets create our tables for our new database
     create_mkt_tables([db_host, db_user, db_password, db_name])
 
+    # After table is created, we update the database with CIK numbers and its respective tickers
+    cik_numbers = load_txt_file(cik_file)
 
 if __name__ == "__main__":
     main()
