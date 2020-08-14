@@ -78,9 +78,7 @@ def main():
         print("The symbol is: " + str(cik_dict[0]) + " and the ticker is: " + str(cik_dict[1]))
         Retrieve_Company_Info(symbol, cik_number, count)
         count += 1
-
     write_to_csv()
-
 
 if __name__ == "__main__":
     main()
