@@ -1,7 +1,5 @@
-from __future__ import print_function
-
 import datetime
-import bs4
+from bs4 import BeautifulSoup
 import psycopg2
 import requests
 import os
@@ -11,11 +9,13 @@ def main():
 
     response = requests.get("https://www.insider-monitor.com/insider_stock_trading_report.html")
 
-    soup = bs4.BeautifulSoup(response.text)
+    soup = BeautifulSoup(response.text, features="html.parser")
 
-    insider_trades = soup.find_all('tr')
-
-
+    table_body = soup.find_all('tr')[1:]
+    for row in table_body:
+        trade = row.find_all('td')
+        row_info = [x.text.strip() for x in trade]
+        pass
     pass
 
 
