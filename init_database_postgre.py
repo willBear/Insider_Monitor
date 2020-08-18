@@ -91,7 +91,7 @@ def create_mkt_tables(db_credential_info):
             insider_position TEXT,
             insider_order_type TEXT NOT NULL,
             trade_shares_quantity INTEGER,
-            trade_shares_price NUMERIC(4,2),
+            trade_shares_price NUMERIC(6,2),
             reported_date TIMESTAMP NOT NULL, 
             created_date TIMESTAMP NOT NULL)
             """,
