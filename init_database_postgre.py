@@ -81,7 +81,21 @@ def create_mkt_tables(db_credential_info):
     conn = None
 
     if check_db_exists(db_credential_info):
-        command = """
+        commands = (
+            """
+            CREATE TABLE insider_trades (
+            id SERIAL PRIMARY KEY,
+            symbol TEXT NOT NULL,
+            company TEXT NOT NULL,
+            insider_name TEXT,
+            insider_position TEXT,
+            insider_order_type TEXT NOT NULL,
+            trade_shares_quantity INTEGER,
+            trade_shares_price NUMERIC(4,2),
+            reported_date TIMESTAMP NOT NULL, 
+            created_date TIMESTAMP NOT NULL)
+            """,
+            """
             CREATE TABLE companies (
             id SERIAL PRIMARY KEY,
             company TEXT NULL,
@@ -94,15 +108,17 @@ def create_mkt_tables(db_credential_info):
             created_date TIMESTAMP NOT NULL,
             last_updated_date TIMESTAMP NULL)
             """
-        try:
-            print('Building tables.')
-            conn = psycopg2.connect(host=db_host, database=db_name, user=db_user, password=db_password)
-            cur = conn.cursor()
-            cur.execute(command)
+        )
 
-            # need to commit this change
-            conn.commit()
-            cur.close()
+        try:
+            for command in commands:
+                print('Building tables.')
+                conn = psycopg2.connect(host=db_host, database=db_name, user=db_user, password=db_password)
+                cur = conn.cursor()
+                cur.execute(command)
+                # need to commit this change
+                conn.commit()
+                cur.close()
         except (Exception, psycopg2.DatabaseError) as error:
             print(error)
             cur.close()
@@ -178,11 +194,11 @@ def main():
     # second lets create our tables for our new database
     create_mkt_tables([db_host, db_user, db_password, db_name])
 
-    # After table is created, we update the database with CIK numbers and its respective tickers
-    cik_dictionary = load_txt_file(cik_file)
-
-    # insert_int
-    insert_into_companies(cik_dictionary, db_host, db_user, db_password, db_name)
+    # # After table is created, we update the database with CIK numbers and its respective tickers
+    # cik_dictionary = load_txt_file(cik_file)
+    #
+    # # insert_int
+    # insert_into_companies(cik_dictionary, db_host, db_user, db_password, db_name)
 
 
 if __name__ == "__main__":
