@@ -2,6 +2,8 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import psycopg2
 import requests
+import schedule
+import time
 from init_database_postgre import load_db_credential_info
 
 insider_trades = []
@@ -19,7 +21,6 @@ def parse_row_info(trades):
     """
     now = datetime.utcnow()
     # Check to see if it contains symbol and company info, otherwise use previous
-    test = len(trades[-1])
     if len(trades[-1]) == 0:
         return
 
@@ -46,7 +47,6 @@ def parse_row_info(trades):
         insider = trades[2]
         insider_position = ''
         insider = insider.strip()
-
 
     insider_position = insider_position[:-1]
 
@@ -98,7 +98,8 @@ def update_insider_trades(db_host, db_user, db_password, db_name):
 
 def main():
     response = requests.get("https://www.insider-monitor.com/insider_stock_trading_report.html")
-
+    now = datetime.now()
+    date_time = now.strftime("%m/%d/%Y, %H:%M:%S")
     soup = BeautifulSoup(response.text, features="html.parser")
 
     table_body = soup.find_all('tr')[1:]
@@ -128,6 +129,14 @@ def main():
 
     update_insider_trades(db_host, db_user, db_password, db_name)
 
+    print('The Time is: ' + date_time + ' Parsed ' + str(page_size) + 'pages of insider trades')
+
+def scheduler():
+    schedule.every(1).minute.do(main)
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
+
 
 if __name__ == "__main__":
-    main()
+    scheduler()
