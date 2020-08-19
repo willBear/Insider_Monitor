@@ -6,7 +6,7 @@ from init_database_postgre import load_db_credential_info
 
 insider_trades = []
 trading_activity = {'B': 'Buy', 'S': 'Sell', 'O': 'Options Excersise'}
-base_url = 'https://www.insider-monitor.com/insider_stock_trading_report.html'
+base_url = 'https://www.insider-monitor.com/insider_stock_trading_report'
 
 
 def parse_row_info(trades):
@@ -33,12 +33,21 @@ def parse_row_info(trades):
         company = last_trade[1]
 
     if '(' in trades[2]:
-        insider, insider_position = trades[2].split("(")
+        # insider, insider_position = trades[2].split("(")
+        info = trades[2].split("(")
+        if len(info) > 2:
+            insider = info[0:-2]
+            insider_position = info[-1]
+            insider = insider[0].strip()
+        else:
+            insider, insider_position = trades[2].split("(")
+
     else:
         insider = trades[2]
         insider_position = ''
+        insider = insider.strip()
 
-    insider = insider.strip()
+
     insider_position = insider_position[:-1]
 
     trade_type = trading_activity[trades[3]]
@@ -50,7 +59,7 @@ def parse_row_info(trades):
     trade_date = datetime.strptime(trades[6], '%Y-%m-%d%H:%M:%S')
 
     insider_trades.append(
-        [symbol, company, insider, insider_position, trade_type, trade_shares, trade_price, trade_date,now])
+        [symbol, company, insider, insider_position, trade_type, trade_shares, trade_price, trade_date, now])
     return
 
 
@@ -63,28 +72,31 @@ def get_page_size(h1_content):
     # Iterate through each row and find 'page'
     for row in h1_content:
         # If contains pages, we assume its greater than 1 page
-        if 'page' in row:
+        content = row.text
+        if 'page' in content:
             info = row.text
             page_size = info[-2]
             return int(page_size)
+            pass
         # Otherwise, we would only parse the first page
         else:
             return 1
+
 
 def update_insider_trades(db_host, db_user, db_password, db_name):
     # Connect to our PostgreSQL database
     conn = psycopg2.connect(host=db_host, database=db_name, user=db_user, password=db_password)
 
-    column_str = ('symbol,company,insider_name,insider_position,insider_order_type,trade_shares_quantity,trade_shares_price,reported_date,created_date')
+    column_str = (
+        'symbol,company,insider_name,insider_position,insider_order_type,trade_shares_quantity,trade_shares_price,reported_date,created_date')
     insert_str = ("%s," * 9)[:-1]
     final_str = "INSERT INTO insider_trades (%s) VALUES (%s)" % (column_str, insert_str)
     with conn:
         cur = conn.cursor()
         cur.executemany(final_str, insider_trades)
 
-def main():
-    now = datetime.utcnow()
 
+def main():
     response = requests.get("https://www.insider-monitor.com/insider_stock_trading_report.html")
 
     soup = BeautifulSoup(response.text, features="html.parser")
@@ -92,11 +104,18 @@ def main():
     table_body = soup.find_all('tr')[1:]
     header = soup.find('h1')
     page_size = get_page_size(header)
-
-    for row in table_body:
-        trade = row.find_all('td')
-        row_info = [x.text.strip() for x in trade]
-        parse_row_info(row_info)
+    current_page = 1
+    while current_page <= page_size:
+        for row in table_body:
+            trade = row.find_all('td')
+            row_info = [x.text.strip() for x in trade]
+            parse_row_info(row_info)
+        current_page += 1
+        current_page_url = base_url + '-' + str(current_page) + '.html'
+        response = requests.get(current_page_url)
+        soup = BeautifulSoup(response.text, features="html.parser")
+        table_body = soup.find_all('tr')[1:]
+        pass
 
     # name of our database credential files (.txt)
     db_credential_info = "database_info.txt"
@@ -108,6 +127,7 @@ def main():
     db_host, db_user, db_password, db_name = load_db_credential_info(db_credential_info_p)
 
     update_insider_trades(db_host, db_user, db_password, db_name)
+
 
 if __name__ == "__main__":
     main()
