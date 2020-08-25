@@ -1,0 +1,451 @@
+symbol,company,insider,insider_position,trade_type,trade_shares,trade_price,trade_date,now
+EYEN,"Eyenovia, Inc.",Grant Stuart M.,,Buy,333000.0,3.6,2020-08-19 06:05:28,2020-08-25 01:09:39.066986
+EYEN,"Eyenovia, Inc.",Grant Stuart M.,,Buy,451620.0,2.06,2020-08-20 06:05:28,2020-08-25 01:09:39.069441
+TCON,"Tracon Pharmaceuticals, Inc.",Theuer Charles  ,President and CEO,Buy,30000.0,1.58,2020-08-20 06:06:15,2020-08-25 01:09:39.069529
+CABO,"Cable One, Inc.",Bowker Michael E.  ,Chief Operating Officer,Options Excersise,500.0,619.66,2020-08-20 06:07:13,2020-08-25 01:09:39.069605
+CABO,"Cable One, Inc.",Bowker Michael E.  ,Chief Operating Officer,Sell,334.0,1853.2,2020-08-20 06:07:13,2020-08-25 01:09:39.069668
+FOXF,Fox Factory Holding Corp,Winters Richard T.,A),Sell,1115.0,106.0,2020-08-21 06:09:00,2020-08-25 01:09:39.069741
+SIF,Sifco Industries Inc,Molten Donald C Jr.  ,Director,Sell,200.0,4.1,2020-08-19 06:15:37,2020-08-25 01:09:39.069814
+GRWG,Growgeneration Corp.,Lamirato Monty R  ,Chief Financial Officer,Sell,13500.0,16.78,2020-08-21 06:33:44,2020-08-25 01:09:39.069886
+GRUB,Grubhub Inc.,Habiger David C  ,Director,Options Excersise,539.0,0.0,2020-08-19 06:43:09,2020-08-25 01:09:39.069958
+ARCC,Ares Capital Corp,Rosen Robert L  ,Director,Buy,5000.0,14.17,2020-08-19 06:47:04,2020-08-25 01:09:39.070025
+ARCC,Ares Capital Corp,Rosen Robert L  ,Director,Buy,2500.0,14.38,2020-08-18 06:47:04,2020-08-25 01:09:39.070089
+ARCC,Ares Capital Corp,Rosen Robert L  ,Director,Buy,2500.0,14.22,2020-08-17 06:47:04,2020-08-25 01:09:39.070182
+GRWG,Growgeneration Corp.,Lampert Darren  ,CEO,Sell,93000.0,19.39,2020-08-20 07:00:21,2020-08-25 01:09:39.070254
+GRWG,Growgeneration Corp.,Lampert Darren  ,CEO,Sell,125000.0,16.53,2020-08-21 07:00:21,2020-08-25 01:09:39.070319
+GRWG,Growgeneration Corp.,Salaman Michael  ,President,Sell,125000.0,16.53,2020-08-21 07:00:38,2020-08-25 01:09:39.070380
+GRWG,Growgeneration Corp.,Salaman Michael  ,President,Sell,93000.0,19.39,2020-08-20 07:00:38,2020-08-25 01:09:39.070441
+NMTR,"9 Meters Biopharma, Inc.",Temperato John  ,Chief Executive Officer,Buy,70000.0,0.69,2020-08-21 07:01:47,2020-08-25 01:09:39.070512
+SLRX,"Salarius Pharmaceuticals, Inc.",Hanish Arnold C,,Buy,4000.0,0.98,2020-08-21 08:08:16,2020-08-25 01:09:39.070584
+RMBL,"Rumbleon, Inc.",Chesrown Marshall  ,Chairman and CEO,Buy,2000.0,27.76,2020-08-21 08:22:59,2020-08-25 01:09:39.070658
+MTDR,Matador Resources Co,Stewart Kenneth L.,,Buy,1000.0,9.81,2020-08-20 08:39:59,2020-08-25 01:09:39.070732
+TNXP,Tonix Pharmaceuticals Holding Corp.,Bell Margaret Smith,,Buy,5391.0,0.93,2020-08-20 09:00:11,2020-08-25 01:09:39.070804
+CLDT,Chatham Lodging Trust,Craven Dennis M  ,EVP & Chief Operating Officer,Buy,2000.0,6.35,2020-08-21 09:09:22,2020-08-25 01:09:39.070876
+PLXP,Plx Pharma Inc.,O'connor Rita M  ,Chief Financial Officer,Buy,2300.0,3.77,2020-08-20 09:12:32,2020-08-25 01:09:39.070951
+PLXP,Plx Pharma Inc.,O'connor Rita M  ,Chief Financial Officer,Buy,4050.0,3.97,2020-08-21 09:12:32,2020-08-25 01:09:39.071012
+RBBN,Ribbon Communications Inc.,Mcclelland Bruce William  ,President & CEO,Buy,10000.0,4.49,2020-08-21 09:13:33,2020-08-25 01:09:39.071091
+MRBK,Meridian Corp,Holland Robert T.  ,Director,Buy,500.0,15.2,2020-08-20 09:16:30,2020-08-25 01:09:39.071230
+UNP,Union Pacific Corp,Rynaski Todd M.  ,VP & CONTROLLER,Sell,1500.0,190.46,2020-08-21 09:26:46,2020-08-25 01:09:39.071326
+PG,Procter & Gamble Co,Fish Kathleen B  ,"Chf Rsch, Dev & Innv Officer",Options Excersise,19023.0,67.52,2020-08-21 09:32:31,2020-08-25 01:09:39.071405
+PG,Procter & Gamble Co,Fish Kathleen B  ,"Chf Rsch, Dev & Innv Officer",Sell,19023.0,137.79,2020-08-21 09:32:31,2020-08-25 01:09:39.071468
+HOFV,Hall Of Fame Resort & Entertainment Co,Crawford Michael Anthony  ,"President, CEO",Buy,12500.0,4.5,2020-08-21 09:37:46,2020-08-25 01:09:39.071542
+PG,Procter & Gamble Co,Keith R. Alexandra  ,CEO - Beauty,Sell,18054.0,136.05,2020-08-20 09:39:57,2020-08-25 01:09:39.071615
+TARA,"Protara Therapeutics, Inc.",Marshall Randall,,Sell,510.0,24.18,2020-08-20 09:51:14,2020-08-25 01:09:39.071692
+MTNB,"Matinas Biopharma Holdings, Inc.",Stern Adam K,,Buy,20000.0,0.83,2020-08-21 10:00:07,2020-08-25 01:09:39.071769
+OEG,"Orbital Energy Group, Inc.",Oneil James F  ,Chief Executive Officer,Buy,28000.0,0.61,2020-08-21 10:04:10,2020-08-25 01:09:39.071842
+AROC,"Archrock, Inc.",Childers D Bradley  ,PRESIDENT AND CEO,Options Excersise,81787.0,0.0,2020-08-20 10:16:19,2020-08-25 01:09:39.071916
+AROC,"Archrock, Inc.",Ingersoll Jason  ,SENIOR VICE PRESIDENT,Options Excersise,6450.0,0.0,2020-08-20 10:19:32,2020-08-25 01:09:39.071976
+NMFC,New Mountain Finance Corp,Hamwee Robert  ,CEO,Buy,30000.0,9.92,2020-08-20 10:25:47,2020-08-25 01:09:39.072042
+CRDA CRDB,Crawford & Co,Agadi Harshavardhan V  ,Director,Buy,5000.0,7.48,2020-08-21 10:46:47,2020-08-25 01:09:39.072115
+CRDA CRDB,Crawford & Co,Agadi Harshavardhan V  ,Director,Buy,375.0,7.47,2020-08-20 10:46:47,2020-08-25 01:09:39.072176
+MNR,Monmouth Real Estate Investment Corp,Otto Gregory Thomas,,Buy,600.0,14.24,2020-08-24 11:04:52,2020-08-25 01:09:39.072248
+ELA,Envela Corp,Pedersen Bret Allen  ,CFO,Buy,402.0,4.06,2020-08-21 11:07:54,2020-08-25 01:09:39.072319
+CWST,Casella Waste Systems Inc,Callahan James F Jr,,Sell,10000.0,55.52,2020-08-21 11:09:12,2020-08-25 01:09:39.072388
+WRLD,World Acceptance Corp,Childers Jason E.  ,"SVP, IT Strategic Solutions",Sell,1803.0,92.2,2020-08-21 11:09:57,2020-08-25 01:09:39.072459
+MSBI,"Midland States Bancorp, Inc.",Spring Donald J.  ,Chief Accounting Officer,Buy,600.0,14.32,2020-08-20 11:17:36,2020-08-25 01:09:39.072533
+ASTE,Astec Industries Inc,Weyenberg Rebecca A  ,Chief Financial Officer,Buy,190.0,52.2,2020-08-21 11:20:59,2020-08-25 01:09:39.072605
+OLN,Olin Corp,Sutton Scott Mcdougald,,Buy,10000.0,10.0,2020-08-20 11:27:57,2020-08-25 01:09:39.072676
+FAST,Fastenal Co,Heise Rita J.,,Options Excersise,4000.0,26.0,2020-08-20 11:29:27,2020-08-25 01:09:39.072743
+FAST,Fastenal Co,Heise Rita J.,,Sell,4000.0,48.07,2020-08-20 11:29:27,2020-08-25 01:09:39.072800
+MTH,Meritage Homes Corp,Hilton Steven J  ,Chief Executive Officer,Sell,25000.0,104.27,2020-08-21 11:42:54,2020-08-25 01:09:39.072870
+PPSI,"Pioneer Power Solutions, Inc.",Mazurek Nathan  ,Chief Executive Officer,Buy,1000.0,1.47,2020-08-20 11:50:32,2020-08-25 01:09:39.072941
+GGG,Graco Inc,Johnson Dale D  ,"President, Worldwide CED",Options Excersise,55800.0,16.61,2020-08-21 11:51:03,2020-08-25 01:09:39.073011
+GGG,Graco Inc,Johnson Dale D  ,"President, Worldwide CED",Sell,55800.0,57.19,2020-08-21 11:51:03,2020-08-25 01:09:39.073072
+VAR,Varian Medical Systems Inc,Wilson Dow R  ,President and CEO,Options Excersise,38907.0,67.12,2020-08-21 11:52:04,2020-08-25 01:09:39.073141
+VAR,Varian Medical Systems Inc,Wilson Dow R  ,President and CEO,Sell,38907.0,172.62,2020-08-21 11:52:04,2020-08-25 01:09:39.073200
+QDEL,Quidel Corp /de/,Abney Michael Donald Jr.  ,SVP - Distribution,Options Excersise,5610.0,33.74,2020-08-19 12:03:26,2020-08-25 01:09:39.073267
+QDEL,Quidel Corp /de/,Abney Michael Donald Jr.  ,SVP - Distribution,Options Excersise,2582.0,33.74,2020-08-20 12:03:26,2020-08-25 01:09:39.073325
+QDEL,Quidel Corp /de/,Abney Michael Donald Jr.  ,SVP - Distribution,Sell,5610.0,250.0,2020-08-19 12:03:26,2020-08-25 01:09:39.073382
+QDEL,Quidel Corp /de/,Abney Michael Donald Jr.  ,SVP - Distribution,Sell,2582.0,250.0,2020-08-20 12:03:26,2020-08-25 01:09:39.073439
+LSBK,"Lake Shore Bancorp, Inc.",Bennett Tracy Steve,,Buy,432.0,12.0,2020-08-21 12:26:27,2020-08-25 01:09:39.073507
+GRA,W R Grace & Co,Tomkins Mark E,,Buy,2000.0,41.73,2020-08-21 12:28:13,2020-08-25 01:09:39.073580
+EL,Estee Lauder Companies Inc,Bravo Rose Marie  ,Director,Sell,4000.0,205.03,2020-08-21 12:28:45,2020-08-25 01:09:39.073650
+GCV,Gabelli Convertible & Income Securities Fund Inc,Gabelli Mario J  ,Director,Sell,4198.0,5.57,2020-08-20 12:38:13,2020-08-25 01:09:39.073712
+TPL,Texas Pacific Land Trust,Horizon Kinetics Asset Management Llc  ,10% Owner,Buy,12.0,552.51,2020-08-21 12:40:54,2020-08-25 01:09:39.073784
+RBNC,"Reliant Bancorp, Inc.",Mcgee Connie S.  ,Director,Buy,645.0,15.32,2020-08-20 12:46:52,2020-08-25 01:09:39.073854
+ACM,Aecom,Chiao Chuan-sheng  ,"President, Asia Pacific",Sell,21594.0,38.57,2020-08-20 12:47:10,2020-08-25 01:09:39.073921
+TGT,Target Corp,Mulligan John J  ,Executive Officer,Sell,28571.0,148.93,2020-08-19 13:11:15,2020-08-25 01:09:39.073990
+MDC,"M.d.c. Holdings, Inc.",Siegel David,,Sell,7095.0,46.4,2020-08-21 13:16:52,2020-08-25 01:09:39.074057
+TGT,Target Corp,Ward Laysha  ,Executive Officer,Sell,61094.0,154.04,2020-08-20 13:17:34,2020-08-25 01:09:39.074125
+TGT,Target Corp,Ward Laysha  ,Executive Officer,Options Excersise,61094.0,60.48,2020-08-20 13:17:34,2020-08-25 01:09:39.074183
+TGT,Target Corp,Lundquist Stephanie A  ,Executive Officer,Sell,6631.0,153.09,2020-08-20 13:19:36,2020-08-25 01:09:39.074244
+TGT,Target Corp,Kremer Melissa K  ,Executive Officer,Options Excersise,3206.0,65.59,2020-08-20 13:21:01,2020-08-25 01:09:39.074302
+TGT,Target Corp,Kremer Melissa K  ,Executive Officer,Sell,8206.0,152.4,2020-08-20 13:21:01,2020-08-25 01:09:39.074359
+RCG,"Renn Fund, Inc.",Stahl Murray  ,President and CEO,Buy,675.0,1.36,2020-08-21 13:21:09,2020-08-25 01:09:39.074422
+TGT,Target Corp,Fiddelke Michael J  ,Executive Officer,Sell,391.0,154.93,2020-08-20 13:24:18,2020-08-25 01:09:39.074490
+TGT,Target Corp,Fiddelke Michael J  ,Executive Officer,Options Excersise,19000.0,55.6,2020-08-20 13:24:18,2020-08-25 01:09:39.074549
+TGT,Target Corp,Hennington Christina  ,Executive Officer,Sell,3564.0,154.93,2020-08-20 13:24:25,2020-08-25 01:09:39.074608
+TIPT,Tiptree Inc.,Barnes Michael Gene  ,Executive Chairman,Buy,4754.0,5.79,2020-08-20 13:25:58,2020-08-25 01:09:39.074682
+TIPT,Tiptree Inc.,Barnes Michael Gene  ,Executive Chairman,Buy,4754.0,5.71,2020-08-21 13:25:58,2020-08-25 01:09:39.074742
+TGT,Target Corp,Cornell Brian C  ,Executive Officer,Sell,100000.0,154.18,2020-08-20 13:29:43,2020-08-25 01:09:39.074810
+TGT,Target Corp,Cornell Brian C  ,Executive Officer,Options Excersise,294551.0,55.6,2020-08-20 13:29:43,2020-08-25 01:09:39.074867
+MBI,Mbia Inc,Rinehart Charles R  ,Director,Sell,25000.0,7.93,2020-08-19 13:41:15,2020-08-25 01:09:39.074934
+FCBC,First Community Bankshares Inc /va/,Mills Gary R  ,President,Buy,3000.0,19.66,2020-08-20 13:48:15,2020-08-25 01:09:39.075003
+MBI,Mbia Inc,Rinehart Charles R  ,Director,Sell,25000.0,7.96,2020-08-20 13:48:51,2020-08-25 01:09:39.075073
+TEL,Te Connectivity Ltd.,Calastri Mario  ,SVP & Treasurer,Sell,10757.0,94.6,2020-08-24 13:49:14,2020-08-25 01:09:39.075141
+MGEE,Mge Energy Inc,Possin James L  ,Director,Buy,300.0,66.35,2020-08-20 13:52:53,2020-08-25 01:09:39.075213
+EXPD,Expeditors International Of Washington Inc,Mcclincy Christopher J.  ,Senior VP - CIO,Sell,50930.0,86.89,2020-08-20 14:02:17,2020-08-25 01:09:39.075284
+EXPD,Expeditors International Of Washington Inc,Mcclincy Christopher J.  ,Senior VP - CIO,Options Excersise,55800.0,44.85,2020-08-20 14:02:17,2020-08-25 01:09:39.075341
+BUDZ,"Weed, Inc.",Breen Nicole M  ,Secretary/Treasurer,Sell,6000.0,0.23,2020-08-20 14:05:52,2020-08-25 01:09:39.075408
+BUDZ,"Weed, Inc.",Breen Nicole M  ,Secretary/Treasurer,Sell,7000.0,0.24,2020-08-19 14:05:52,2020-08-25 01:09:39.075470
+BUDZ,"Weed, Inc.",Breen Nicole M  ,Secretary/Treasurer,Sell,6000.0,0.25,2020-08-18 14:05:52,2020-08-25 01:09:39.075528
+BUDZ,"Weed, Inc.",Breen Nicole M  ,Secretary/Treasurer,Sell,7000.0,0.25,2020-08-17 14:05:52,2020-08-25 01:09:39.075584
+AMNB,American National Bankshares Inc.,Bowling Kenneth S.  ,Director,Buy,602.0,23.29,2020-08-21 14:07:28,2020-08-25 01:09:39.075654
+USNA,Usana Health Sciences Inc,Gull Global Ltd,,Sell,600000.0,80.0,2020-08-21 14:12:55,2020-08-25 01:09:39.075721
+SONA,Southern National Bancorp Of Virginia Inc,Stevens William H  ,"EVP, Chief Credit Risk Officer",Buy,1500.0,7.04,2020-07-09 14:20:16,2020-08-25 01:09:39.075791
+EFSI,Eagle Financial Services Inc,Hudson John Eugene  ,EXECUTIVE OFFICER,Sell,2000.0,26.25,2020-08-21 14:44:47,2020-08-25 01:09:39.075862
+PGR,Progressive Corp/oh/,Sauerland John P  ,VP and Chief Financial Officer,Sell,15000.0,90.28,2020-08-20 14:50:21,2020-08-25 01:09:39.075935
+PM,Philip Morris International Inc.,Camilleri Louis C,,Sell,37500.0,77.5,2020-08-21 14:57:58,2020-08-25 01:09:39.076005
+PM,Philip Morris International Inc.,Camilleri Louis C,,Sell,37500.0,77.97,2020-08-20 14:57:58,2020-08-25 01:09:39.076063
+CRBO,Carbon Energy Corp,Mcdonald Patrick R  ,CHIEF EXECUTIVE OFFICER,Buy,5000.0,0.3,2020-08-17 15:05:52,2020-08-25 01:09:39.076126
+ADMQ,"Adm Endeavors, Inc.",Johnson Marc  ,CEO,Buy,178900.0,0.1,2020-08-20 15:08:41,2020-08-25 01:09:39.076195
+NTGR,"Netgear, Inc.",Falcon Michael F  ,Chief Operations Officer,Sell,781.0,33.95,2020-08-20 15:15:13,2020-08-25 01:09:39.290517
+NTGR,"Netgear, Inc.",Falcon Michael F  ,Chief Operations Officer,Options Excersise,781.0,26.61,2020-08-20 15:15:13,2020-08-25 01:09:39.290631
+SONA,Southern National Bancorp Of Virginia Inc,Sheflett George Cody Jr  ,"EVP, CIO/COO",Buy,1000.0,7.04,2020-07-21 15:24:58,2020-08-25 01:09:39.290719
+FUBO,Fubotv Inc. /fl,Textor John C,,Buy,100.0,10.99,2020-08-17 15:35:23,2020-08-25 01:09:39.290810
+FUBO,Fubotv Inc. /fl,Textor John C,,Buy,1705.0,10.1,2020-08-18 15:35:23,2020-08-25 01:09:39.290886
+FUBO,Fubotv Inc. /fl,Textor John C,,Buy,6767.0,10.64,2020-08-19 15:35:23,2020-08-25 01:09:39.290956
+FUBO,Fubotv Inc. /fl,Textor John C,,Buy,6248.0,10.97,2020-08-20 15:35:23,2020-08-25 01:09:39.291024
+FUBO,Fubotv Inc. /fl,Textor John C,,Buy,2700.0,10.74,2020-08-21 15:35:23,2020-08-25 01:09:39.291093
+FUBO,Fubotv Inc. /fl,Textor John C,,Buy,1700.0,10.96,2020-08-14 15:35:23,2020-08-25 01:09:39.291162
+LEVL,Level One Bancorp Inc,Walker David Carl  ,EVP and CFO,Buy,1153.0,16.16,2020-08-21 15:43:31,2020-08-25 01:09:39.291242
+CBGL,"Cannabis Global, Inc.","Ghs Investments, Llc",,Sell,47992.0,0.17,2020-08-18 15:45:08,2020-08-25 01:09:39.291320
+CBGL,"Cannabis Global, Inc.","Ghs Investments, Llc",,Sell,25962.0,0.16,2020-08-19 15:45:08,2020-08-25 01:09:39.291419
+IEX,Idex Corp /de/,Bucklew Jeffrey D  ,SVP-Chief HR Officer,Options Excersise,5000.0,74.74,2020-08-21 15:46:37,2020-08-25 01:09:39.291495
+IEX,Idex Corp /de/,Bucklew Jeffrey D  ,SVP-Chief HR Officer,Sell,5000.0,178.5,2020-08-21 15:46:37,2020-08-25 01:09:39.291564
+MRLN,Marlin Business Services Corp,Deangelo Lawrence J  ,Director,Buy,1400.0,6.78,2020-08-21 15:58:48,2020-08-25 01:09:39.291646
+MRLN,Marlin Business Services Corp,Deangelo Lawrence J  ,Director,Buy,6437.0,6.82,2020-08-20 15:58:48,2020-08-25 01:09:39.291716
+DCPH,"Deciphera Pharmaceuticals, Inc.",Hoerter Steven L.  ,President and CEO,Options Excersise,187.0,25.4,2020-08-20 16:00:57,2020-08-25 01:09:39.291794
+PRPL,"Purple Innovation, Inc.",Pearce Tony Marion,,Sell,3150450.0,20.2,2020-08-20 16:02:48,2020-08-25 01:09:39.291874
+PRPL,"Purple Innovation, Inc.",Pearce Terry Vernon,,Sell,3150450.0,20.2,2020-08-20 16:03:05,2020-08-25 01:09:39.291942
+PRPL,"Purple Innovation, Inc.","Innohold, Llc",,Sell,3150450.0,20.2,2020-08-20 16:03:48,2020-08-25 01:09:39.292007
+KLAC,Kla Corp,Khan Ahmad A.  ,"President, Semi Proc. Control",Sell,9954.0,206.73,2020-08-20 16:04:19,2020-08-25 01:09:39.292085
+LSTR,Landstar System Inc,Akbari Dr. Homaira  ,Director,Sell,350.0,132.0,2020-08-20 16:04:45,2020-08-25 01:09:39.292167
+MEDP,"Medpace Holdings, Inc.","Medpace Investors, Llc",,Sell,18813.0,125.83,2020-08-20 16:05:19,2020-08-25 01:09:39.292245
+MEDP,"Medpace Holdings, Inc.","Medpace Investors, Llc",,Sell,24304.0,124.37,2020-08-21 16:05:19,2020-08-25 01:09:39.292317
+MEDP,"Medpace Holdings, Inc.",Troendle August J.  ,President & CEO,Sell,18813.0,125.83,2020-08-20 16:05:56,2020-08-25 01:09:39.292418
+MEDP,"Medpace Holdings, Inc.",Troendle August J.  ,President & CEO,Sell,24304.0,124.37,2020-08-21 16:05:56,2020-08-25 01:09:39.292495
+DRIO,Dariohealth Corp.,Stern Adam K,,Buy,639.0,6.66,2020-08-03 16:06:14,2020-08-25 01:09:39.292582
+BSX,Boston Scientific Corp,Ralls-morrison Desiree  ,"SVP, GC and Corp Secretary",Sell,1182.0,39.0,2020-08-20 16:06:52,2020-08-25 01:09:39.292666
+RNG,"Ringcentral, Inc.",Agarwal Vaibhav  ,Chief Accounting Officer,Sell,572.0,291.6,2020-08-21 16:07:22,2020-08-25 01:09:39.292752
+RNG,"Ringcentral, Inc.","Elca, Llc  ",Other,Options Excersise,10000.0,17.13,2020-08-20 16:07:32,2020-08-25 01:09:39.292820
+RNG,"Ringcentral, Inc.","Elca, Llc  ",Other,Options Excersise,10000.0,17.13,2020-08-21 16:07:32,2020-08-25 01:09:39.292913
+RNG,"Ringcentral, Inc.","Elca, Llc  ",Other,Sell,39817.0,288.96,2020-08-20 16:07:32,2020-08-25 01:09:39.292983
+RNG,"Ringcentral, Inc.","Elca, Llc  ",Other,Sell,10000.0,291.27,2020-08-21 16:07:32,2020-08-25 01:09:39.293053
+CARG,"Cargurus, Inc.",Steinert Langley  ,CEO and Chairman,Sell,25985.0,27.32,2020-08-20 16:07:52,2020-08-25 01:09:39.293136
+CARG,"Cargurus, Inc.",Steinert Langley  ,CEO and Chairman,Sell,25985.0,27.21,2020-08-21 16:07:52,2020-08-25 01:09:39.293207
+RPD,"Rapid7, Inc.",Luconi Christina  ,Chief People Officer,Sell,4589.0,61.19,2020-08-20 16:08:50,2020-08-25 01:09:39.293294
+AFG,American Financial Group Inc,Ambrecht Kenneth C  ,Director,Buy,1000.0,65.25,2020-08-20 16:10:10,2020-08-25 01:09:39.293380
+BL,"Blackline, Inc.",Hirsch Peter  ,Chief Technology Officer,Sell,1113.0,77.63,2020-08-21 16:11:47,2020-08-25 01:09:39.293504
+TOL,"Toll Brothers, Inc.",Yearley Douglas C. Jr.  ,Chief Executive Officer,Sell,20000.0,44.0,2020-08-21 16:12:27,2020-08-25 01:09:39.293600
+EXTR,Extreme Networks Inc,Meyercord Edward  ,PRESIDENT AND CEO,Options Excersise,12219.0,0.0,2020-08-23 16:12:46,2020-08-25 01:09:39.293689
+BL,"Blackline, Inc.",Huffman Marc  ,President and COO,Sell,686.0,77.63,2020-08-21 16:13:41,2020-08-25 01:09:39.293774
+MHO,"M/i Homes, Inc.",Hunker Ann Marie  ,Principal Accounting Officer,Options Excersise,3800.0,20.09,2020-08-21 16:14:11,2020-08-25 01:09:39.293856
+CRWD,"Crowdstrike Holdings, Inc.",Kurtz George  ,PRESIDENT AND CEO,Sell,12475.0,110.92,2020-08-20 16:15:32,2020-08-25 01:09:39.293939
+ATSG,"Air Transport Services Group, Inc.",Hete Joseph C,,Sell,10000.0,25.59,2020-08-21 16:16:18,2020-08-25 01:09:39.294020
+MHO,"M/i Homes, Inc.",Creek Phillip G  ,Ex. Vice President and CFO,Options Excersise,10450.0,23.34,2020-08-21 16:16:19,2020-08-25 01:09:39.294105
+SKT,"Tanger Factory Outlet Centers, Inc",Williams James Floyd  ,Executive VP & CFO,Buy,4300.0,5.73,2020-08-21 16:16:37,2020-08-25 01:09:39.294188
+SKT,"Tanger Factory Outlet Centers, Inc",Yalof Stephen  ,President & COO,Buy,10000.0,5.78,2020-08-21 16:16:53,2020-08-25 01:09:39.294267
+PGNY,"Progyny, Inc.",Coulter James G,,Sell,47506.0,30.2,2020-08-21 16:17:09,2020-08-25 01:09:39.294351
+PGNY,"Progyny, Inc.",Coulter James G,,Sell,43500.0,31.02,2020-08-20 16:17:09,2020-08-25 01:09:39.294421
+TENB,"Tenable Holdings, Inc.",Yoran Amit  ,"President, CEO and Chairman",Options Excersise,13243.0,0.0,2020-08-20 16:17:52,2020-08-25 01:09:39.294502
+TENB,"Tenable Holdings, Inc.",Yoran Amit  ,"President, CEO and Chairman",Sell,5976.0,35.09,2020-08-20 16:17:52,2020-08-25 01:09:39.294579
+TENB,"Tenable Holdings, Inc.",Riddick Stephen A  ,General Counsel & Secretary,Options Excersise,2990.0,0.0,2020-08-20 16:18:23,2020-08-25 01:09:39.294650
+TENB,"Tenable Holdings, Inc.",Riddick Stephen A  ,General Counsel & Secretary,Sell,1433.0,35.09,2020-08-20 16:18:23,2020-08-25 01:09:39.294721
+CRCQQ,California Resources Corp,Pineci Roy  ,SVP - Finance,Sell,38225.0,0.1,2020-08-20 16:19:02,2020-08-25 01:09:39.294804
+TENB,"Tenable Holdings, Inc.",Vintz Stephen A  ,Chief Financial Officer,Sell,4094.0,35.09,2020-08-20 16:19:06,2020-08-25 01:09:39.294888
+TENB,"Tenable Holdings, Inc.",Vintz Stephen A  ,Chief Financial Officer,Options Excersise,8544.0,0.0,2020-08-20 16:19:06,2020-08-25 01:09:39.294960
+ZS,"Zscaler, Inc.",Apte Manoj  ,Chief Strategy Officer,Options Excersise,15485.0,5.93,2020-08-21 16:21:15,2020-08-25 01:09:39.295042
+ZS,"Zscaler, Inc.",Apte Manoj  ,Chief Strategy Officer,Options Excersise,1179.0,5.93,2020-08-20 16:21:15,2020-08-25 01:09:39.295139
+ZS,"Zscaler, Inc.",Apte Manoj  ,Chief Strategy Officer,Sell,1179.0,137.01,2020-08-20 16:21:15,2020-08-25 01:09:39.295214
+ZS,"Zscaler, Inc.",Apte Manoj  ,Chief Strategy Officer,Sell,15485.0,137.06,2020-08-21 16:21:15,2020-08-25 01:09:39.295284
+WK,Workiva Inc,Banarjee Mithun  ,EVP and Chief Customer Officer,Options Excersise,11000.0,15.47,2020-08-20 16:21:21,2020-08-25 01:09:39.295368
+WK,Workiva Inc,Banarjee Mithun  ,EVP and Chief Customer Officer,Options Excersise,11039.0,13.91,2020-08-21 16:21:21,2020-08-25 01:09:39.295442
+WK,Workiva Inc,Banarjee Mithun  ,EVP and Chief Customer Officer,Sell,17626.0,55.64,2020-08-20 16:21:21,2020-08-25 01:09:39.295511
+WK,Workiva Inc,Banarjee Mithun  ,EVP and Chief Customer Officer,Sell,11039.0,55.05,2020-08-21 16:21:21,2020-08-25 01:09:39.295578
+NSP,"Insperity, Inc.",Arizpe Arthur A  ,President and COO,Sell,3000.0,70.5,2020-08-20 16:22:07,2020-08-25 01:09:39.295660
+LJPC,La Jolla Pharmaceutical Co,Ramsay David A,,Buy,12000.0,4.17,2020-08-20 16:22:49,2020-08-25 01:09:39.295745
+LJPC,La Jolla Pharmaceutical Co,Ramsay David A,,Buy,28000.0,3.95,2020-08-21 16:22:49,2020-08-25 01:09:39.295819
+LJPC,La Jolla Pharmaceutical Co,Ramsay David A,,Buy,7000.0,3.76,2020-08-24 16:22:49,2020-08-25 01:09:39.295893
+AGCO,Agco Corp /de,Collar Gary L  ,"Sr. VP - General Manager, APA",Sell,10000.0,72.16,2020-08-21 16:24:24,2020-08-25 01:09:39.295975
+ALIM,Alimera Sciences Inc,Myers C. Daniel  ,Director,Sell,5000.0,6.73,2020-08-20 16:25:54,2020-08-25 01:09:39.296061
+QRVO,"Qorvo, Inc.",Bruggeworth Robert A  ,President and CEO,Sell,1324.0,131.0,2020-08-21 16:26:37,2020-08-25 01:09:39.296142
+QCOM,Qualcomm Inc/de,Palkhiwala Akash J.  ,EVP & Chief Financial Officer,Options Excersise,14032.0,0.0,2020-08-23 16:28:32,2020-08-25 01:09:39.296225
+ANGI,Angi Homeservices Inc.,Smith Craig M.  ,President & COO,Options Excersise,263871.0,4.53,2020-08-21 16:28:58,2020-08-25 01:09:39.296307
+ANGI,Angi Homeservices Inc.,Smith Craig M.  ,President & COO,Sell,250000.0,14.25,2020-08-20 16:28:58,2020-08-25 01:09:39.296382
+ANGI,Angi Homeservices Inc.,Smith Craig M.  ,President & COO,Sell,100000.0,13.84,2020-08-21 16:28:58,2020-08-25 01:09:39.296457
+ANGI,Angi Homeservices Inc.,Smith Craig M.  ,President & COO,Options Excersise,654235.0,4.53,2020-08-20 16:28:58,2020-08-25 01:09:39.296558
+ANGI,Angi Homeservices Inc.,Ridenour William B.  ,CEO,Sell,250000.0,14.24,2020-08-20 16:29:29,2020-08-25 01:09:39.296637
+ANGI,Angi Homeservices Inc.,Ridenour William B.  ,CEO,Options Excersise,479213.0,0.98,2020-08-20 16:29:29,2020-08-25 01:09:39.296720
+ANGI,Angi Homeservices Inc.,Ridenour William B.  ,CEO,Options Excersise,3072.0,0.98,2020-08-21 16:29:29,2020-08-25 01:09:39.296797
+ANGI,Angi Homeservices Inc.,Ridenour William B.  ,CEO,Sell,1600.0,14.0,2020-08-21 16:29:29,2020-08-25 01:09:39.296879
+VTGN,"Vistagen Therapeutics, Inc.",Saxe Jon S,,Buy,30000.0,0.69,2020-08-21 16:31:12,2020-08-25 01:09:39.296975
+ITW,Illinois Tool Works Inc,Zimmerman Michael R.  ,Executive Vice President,Options Excersise,13362.0,98.26,2020-08-20 16:31:21,2020-08-25 01:09:39.297064
+ITW,Illinois Tool Works Inc,Zimmerman Michael R.  ,Executive Vice President,Sell,13362.0,193.48,2020-08-20 16:31:21,2020-08-25 01:09:39.297145
+EPD,Enterprise Products Partners L.p.,Bacon Graham W.  ,Executive Vice President & COO,Buy,7500.0,17.8,2020-08-21 16:32:29,2020-08-25 01:09:39.297238
+DPZ,Dominos Pizza Inc,Jordan Joseph Hugh  ,"EVP, International",Sell,815.0,420.0,2020-08-21 16:33:19,2020-08-25 01:09:39.297328
+FCCO,First Community Corp /sc/,Crapps Michael C  ,President and CEO,Buy,1510.0,13.0,2020-08-20 16:33:24,2020-08-25 01:09:39.297422
+FCCO,First Community Corp /sc/,Crapps Michael C  ,President and CEO,Buy,2090.0,13.0,2020-08-21 16:33:24,2020-08-25 01:09:39.297519
+SMTC,Semtech Corp,Fulton Alisair  ,VP and GM,Options Excersise,500.0,0.0,2020-08-22 16:33:47,2020-08-25 01:09:39.297634
+LIVX,"Livexlive Media, Inc.",Krigsman Jay E.,,Buy,1961.0,2.9,2020-08-20 16:34:07,2020-08-25 01:09:39.297722
+LIVX,"Livexlive Media, Inc.",Krigsman Jay E.,,Buy,10000.0,2.8,2020-08-21 16:34:07,2020-08-25 01:09:39.297798
+SMTC,Semtech Corp,Rodensky Michael W  ,VP,Options Excersise,1000.0,0.0,2020-08-21 16:34:13,2020-08-25 01:09:39.297881
+SMTC,Semtech Corp,Rodensky Michael W  ,VP,Options Excersise,1000.0,0.0,2020-08-22 16:34:13,2020-08-25 01:09:39.297955
+VAL,Valaris Plc,Weitzman Adam  ,Director,Sell,4500000.0,0.1,2020-08-20 16:34:31,2020-08-25 01:09:39.298041
+PTC,Ptc Inc.,Fernandez Phillip M,,Sell,250.0,87.84,2020-08-24 16:35:31,2020-08-25 01:09:39.298127
+CENX,Century Aluminum Co,Hoerner John E.  ,EVP - N. American Operations,Sell,10000.0,9.35,2020-08-20 16:38:00,2020-08-25 01:09:39.298213
+FRD,Friedman Industries Inc,Taylor Mike J  ,President / CEO / Director,Buy,5000.0,5.37,2020-08-20 16:39:11,2020-08-25 01:09:39.298383
+ABM,Abm Industries Inc /de/,Jacobsen Rene  ,EVP & Chief Fac Svcs Officer,Sell,717.0,37.0,2020-08-20 16:39:17,2020-08-25 01:09:39.298479
+NFBK,"Northfield Bancorp, Inc.",Connors John P Jr,,Buy,1000.0,9.63,2020-08-21 16:42:11,2020-08-25 01:09:39.298598
+TTGT,Techtarget Inc,Levenson Bruce  ,Director,Options Excersise,5000.0,6.83,2020-08-20 16:43:21,2020-08-25 01:09:39.298687
+TTGT,Techtarget Inc,Levenson Bruce  ,Director,Sell,600.0,39.78,2020-08-21 16:43:21,2020-08-25 01:09:39.298763
+MXL,Maxlinear Inc,Bollesen Michael  ,Vice President of Sales,Options Excersise,1273.0,0.0,2020-08-20 16:43:47,2020-08-25 01:09:39.503701
+MXL,Maxlinear Inc,Lachance Michael J.  ,"Vice President, Operations",Options Excersise,7214.0,0.0,2020-08-20 16:44:50,2020-08-25 01:09:39.503803
+SNPS,Synopsys Inc,Chaffin Janice  ,Director,Sell,5000.0,211.56,2020-08-21 16:44:59,2020-08-25 01:09:39.503871
+SNPS,Synopsys Inc,Chaffin Janice  ,Director,Options Excersise,5000.0,42.43,2020-08-21 16:44:59,2020-08-25 01:09:39.503928
+MXL,Maxlinear Inc,Litchfield Steven G  ,See remarks,Options Excersise,1123.0,0.0,2020-08-20 16:45:09,2020-08-25 01:09:39.504048
+MXL,Maxlinear Inc,Lougheed James  ,See Remarks,Options Excersise,2388.0,0.0,2020-08-20 16:45:29,2020-08-25 01:09:39.504146
+MXL,Maxlinear Inc,Reddy Madhukar  ,"VP, Central Engineering",Options Excersise,9207.0,0.0,2020-08-20 16:45:50,2020-08-25 01:09:39.504250
+SNPS,Synopsys Inc,Chan Chi-foon  ,Co-CEO & President,Options Excersise,187007.0,45.23,2020-08-21 16:46:20,2020-08-25 01:09:39.504324
+SNPS,Synopsys Inc,Chan Chi-foon  ,Co-CEO & President,Sell,198961.0,211.79,2020-08-21 16:46:20,2020-08-25 01:09:39.504379
+MXL,Maxlinear Inc,Seendripu Kishore  ,"Chairman, President and CEO",Options Excersise,2896.0,0.0,2020-08-20 16:46:31,2020-08-25 01:09:39.504442
+SNPS,Synopsys Inc,Logan Joseph W  ,Sales & Corp Mktg Officer,Options Excersise,72299.0,40.25,2020-08-21 16:46:34,2020-08-25 01:09:39.504506
+SNPS,Synopsys Inc,Logan Joseph W  ,Sales & Corp Mktg Officer,Sell,72299.0,210.41,2020-08-21 16:46:34,2020-08-25 01:09:39.504584
+MXL,Maxlinear Inc,Torgerson William  ,"VP/GM, Broadband Group",Options Excersise,7179.0,0.0,2020-08-20 16:46:48,2020-08-25 01:09:39.504646
+REGN,"Regeneron Pharmaceuticals, Inc.",Van Plew Daniel P  ,EVP & General Mgr Industrial O,Options Excersise,75000.0,179.13,2020-08-20 16:47:32,2020-08-25 01:09:39.504707
+MGRC,Mcgrath Rentcorp,Hanna Joseph F  ,President & CEO,Options Excersise,31500.0,31.99,2020-08-20 16:47:36,2020-08-25 01:09:39.504768
+HCAT,"Health Catalyst, Inc.",Burton Daniel D.  ,Chief Executive Officer,Sell,72265.0,32.38,2020-08-21 16:49:06,2020-08-25 01:09:39.504830
+HCAT,"Health Catalyst, Inc.",Burton Daniel D.  ,Chief Executive Officer,Options Excersise,72265.0,10.8,2020-08-21 16:49:06,2020-08-25 01:09:39.504882
+HCAT,"Health Catalyst, Inc.",Burton Daniel D.  ,Chief Executive Officer,Sell,50603.0,32.4,2020-08-20 16:49:06,2020-08-25 01:09:39.504935
+HCAT,"Health Catalyst, Inc.",Burton Daniel D.  ,Chief Executive Officer,Options Excersise,50603.0,10.8,2020-08-20 16:49:06,2020-08-25 01:09:39.504991
+PXLW,"Pixelworks, Inc",Heneghan Daniel  ,Director,Buy,10000.0,2.33,2020-08-21 16:51:44,2020-08-25 01:09:39.505056
+VSLR,"Vivint Solar, Inc.",Pedersen Todd R.  ,Director,Sell,108447.0,26.38,2020-08-21 16:52:05,2020-08-25 01:09:39.505118
+VSLR,"Vivint Solar, Inc.",Pedersen Todd R.  ,Director,Sell,112156.0,25.84,2020-08-20 16:52:05,2020-08-25 01:09:39.505170
+CZR,"Caesars Entertainment, Inc.",Kornstein Don R,,Options Excersise,5500.0,0.0,2020-08-20 16:53:30,2020-08-25 01:09:39.505231
+KOD,Kodiak Sciences Inc.,Ehrlich Jason  ,See Remarks,Options Excersise,6950.0,10.29,2020-08-20 16:56:06,2020-08-25 01:09:39.505294
+KOD,Kodiak Sciences Inc.,Ehrlich Jason  ,See Remarks,Sell,6950.0,46.97,2020-08-20 16:56:06,2020-08-25 01:09:39.505347
+ADIL,"Adial Pharmaceuticals, Inc.",Johnson Bankole A.  ,Chief Medical Officer,Sell,350000.0,1.21,2020-08-20 16:59:08,2020-08-25 01:09:39.505415
+WORK,"Slack Technologies, Inc.",Henderson Cal  ,Chief Technology Officer,Sell,1500.0,30.11,2020-08-21 17:00:42,2020-08-25 01:09:39.505477
+WORK,"Slack Technologies, Inc.",Henderson Cal  ,Chief Technology Officer,Sell,1500.0,30.01,2020-08-20 17:00:42,2020-08-25 01:09:39.505529
+WORK,"Slack Technologies, Inc.",Butterfield Stewart  ,Chief Executive Officer,Sell,25000.0,30.0,2020-08-20 17:01:07,2020-08-25 01:09:39.505582
+ATAX,"America First Multifamily Investors, L.p.",Rosenberg Stephen  ,Director,Buy,42500.0,4.66,2020-08-19 17:01:46,2020-08-25 01:09:39.505645
+"XPEL, INC.","Xpel, Inc.",Adams Mark,,Sell,24700.0,29.0,2020-08-20 17:03:56,2020-08-25 01:09:39.505707
+CVIAQ,Covia Holdings Corp,Navarre Richard A  ,"Chairman, President & CEO",Sell,217176.0,0.01,2020-08-20 17:04:03,2020-08-25 01:09:39.505770
+IDXX,Idexx Laboratories Inc /de,Ayers Jonathan W,,Sell,18000.0,382.72,2020-08-20 17:05:40,2020-08-25 01:09:39.505832
+IDXX,Idexx Laboratories Inc /de,Ayers Jonathan W,,Options Excersise,18000.0,67.85,2020-08-20 17:05:40,2020-08-25 01:09:39.505888
+"XPEL, INC.","Xpel, Inc.",Constantine John,,Sell,24000.0,29.0,2020-08-20 17:06:33,2020-08-25 01:09:39.505950
+LODE,Comstock Mining Inc.,Drozdoff Leo M,,Buy,30000.0,1.0,2020-08-21 17:06:54,2020-08-25 01:09:39.506012
+BBY,Best Buy Co Inc,Bilunas Matthew M  ,Chief Financial Officer,Sell,861.0,112.22,2020-08-21 17:09:41,2020-08-25 01:09:39.506075
+VSLR,"Vivint Solar, Inc.",Schwarzman Stephen A  ,10% Owner,Sell,11627907.0,21.5,2020-08-21 17:10:30,2020-08-25 01:09:39.506137
+GBT,"Global Blood Therapeutics, Inc.",Cathers Brian Edwin  ,Chief Scientific Officer,Sell,2200.0,63.77,2020-08-20 17:14:23,2020-08-25 01:09:39.506199
+IMII,Inception Mining Inc.,Cluff Whitney O,,Buy,30000.0,0.03,2020-07-31 17:15:56,2020-08-25 01:09:39.506265
+IMII,Inception Mining Inc.,Cluff Whitney O,,Buy,25000.0,0.03,2020-08-05 17:15:56,2020-08-25 01:09:39.506320
+IMII,Inception Mining Inc.,Cluff Whitney O,,Buy,15000.0,0.03,2020-08-06 17:15:56,2020-08-25 01:09:39.506374
+IMII,Inception Mining Inc.,Cluff Whitney O,,Buy,20000.0,0.03,2020-08-07 17:15:56,2020-08-25 01:09:39.506428
+IMII,Inception Mining Inc.,Cluff Whitney O,,Buy,25000.0,0.03,2020-08-10 17:15:56,2020-08-25 01:09:39.506483
+IMII,Inception Mining Inc.,Cluff Whitney O,,Buy,10000.0,0.03,2020-08-11 17:15:56,2020-08-25 01:09:39.506536
+IMII,Inception Mining Inc.,Cluff Whitney O,,Buy,40000.0,0.03,2020-08-03 17:15:56,2020-08-25 01:09:39.506589
+IMII,Inception Mining Inc.,Cluff Whitney O,,Buy,26000.0,0.03,2020-07-28 17:15:56,2020-08-25 01:09:39.506736
+IMII,Inception Mining Inc.,Cluff Whitney O,,Sell,10000.0,0.03,2020-08-04 17:15:56,2020-08-25 01:09:39.506827
+IMII,Inception Mining Inc.,Cluff Whitney O,,Buy,30000.0,0.03,2020-07-30 17:15:56,2020-08-25 01:09:39.506887
+IMII,Inception Mining Inc.,Cluff Whitney O,,Buy,7000.0,0.03,2020-07-27 17:15:56,2020-08-25 01:09:39.506942
+IMII,Inception Mining Inc.,Cluff Whitney O,,Buy,68563.0,0.03,2020-07-29 17:15:56,2020-08-25 01:09:39.506996
+BFS,"Saul Centers, Inc.",Saul B Francis Ii  ,CEO & President,Buy,10151.0,28.71,2020-08-20 17:16:37,2020-08-25 01:09:39.507058
+BFS,"Saul Centers, Inc.",Saul B Francis Ii  ,CEO & President,Buy,10099.0,27.74,2020-08-21 17:16:37,2020-08-25 01:09:39.507114
+SQ,"Square, Inc.",Reses Jacqueline D  ,Capital Lead,Options Excersise,35000.0,9.0,2020-08-20 17:17:51,2020-08-25 01:09:39.507174
+SQ,"Square, Inc.",Reses Jacqueline D  ,Capital Lead,Sell,35000.0,154.07,2020-08-20 17:17:51,2020-08-25 01:09:39.507227
+REGN,"Regeneron Pharmaceuticals, Inc.",Goldstein Joseph L  ,Director,Sell,1000.0,617.18,2020-08-21 17:19:37,2020-08-25 01:09:39.507295
+DBX,"Dropbox, Inc.",Regan Timothy  ,Chief Accounting Officer,Sell,2000.0,19.9,2020-08-20 17:24:31,2020-08-25 01:09:39.507358
+HD,"Home Depot, Inc.",Campbell Ann Marie  ,EVP - U.S. Stores,Options Excersise,14360.0,127.91,2020-08-20 17:25:20,2020-08-25 01:09:39.507420
+HD,"Home Depot, Inc.",Campbell Ann Marie  ,EVP - U.S. Stores,Sell,14360.0,280.2,2020-08-20 17:25:20,2020-08-25 01:09:39.507472
+ORI,Old Republic International Corp,Reed Glenn W,,Buy,1500.0,16.02,2020-08-21 17:25:48,2020-08-25 01:09:39.507544
+EQIX,Equinix Inc,Paisley Christopher B,,Sell,200.0,787.71,2020-08-21 17:26:12,2020-08-25 01:09:39.507646
+AIT,Applied Industrial Technologies Inc,Dorsman Peter A,,Options Excersise,5468.0,35.73,2020-08-20 17:27:32,2020-08-25 01:09:39.507732
+AIT,Applied Industrial Technologies Inc,Dorsman Peter A,,Sell,602.0,60.16,2020-08-21 17:27:32,2020-08-25 01:09:39.507791
+AIT,Applied Industrial Technologies Inc,Dorsman Peter A,,Sell,9606.0,60.42,2020-08-24 17:27:32,2020-08-25 01:09:39.507846
+BTN,"Ballantyne Strong, Inc.",Moglia Joseph H,,Buy,2613.0,1.83,2020-08-20 17:28:33,2020-08-25 01:09:39.507941
+BTN,"Ballantyne Strong, Inc.",Moglia Joseph H,,Buy,2710.0,1.84,2020-08-21 17:28:33,2020-08-25 01:09:39.507997
+BKTI,Bk Technologies Corp,Moglia Joseph H,,Buy,3600.0,3.13,2020-08-20 17:28:58,2020-08-25 01:09:39.508061
+BKTI,Bk Technologies Corp,Moglia Joseph H,,Buy,1300.0,3.11,2020-08-21 17:28:58,2020-08-25 01:09:39.508124
+HD,"Home Depot, Inc.",Roseborough Teresa Wynn  ,"EVP, Gen. Counsel & Corp. Sec.",Options Excersise,41947.0,123.19,2020-08-21 17:29:18,2020-08-25 01:09:39.508191
+HD,"Home Depot, Inc.",Roseborough Teresa Wynn  ,"EVP, Gen. Counsel & Corp. Sec.",Sell,41947.0,279.91,2020-08-21 17:29:18,2020-08-25 01:09:39.508260
+SELF,"Global Self Storage, Inc.",Klimoski Donald Ii  ,General Counsel,Buy,238.0,3.91,2020-08-24 17:31:20,2020-08-25 01:09:39.508343
+PETQ,"Petiq, Inc.",Smith Michael A  ,EVP - Products,Sell,2664.0,31.5,2020-08-20 17:35:12,2020-08-25 01:09:39.508416
+OSS,"One Stop Systems, Inc.","Cooper Revocable Trust Dated April 25, 2001  ",10% Owner,Sell,12250.0,2.52,2020-08-20 17:38:57,2020-08-25 01:09:39.508487
+CAR,"Avis Budget Group, Inc.",Sarma Karthik R.,,Buy,61114.0,32.76,2020-08-20 17:41:48,2020-08-25 01:09:39.508557
+CAR,"Avis Budget Group, Inc.",Sarma Karthik R.,,Buy,95723.0,32.3,2020-08-21 17:41:48,2020-08-25 01:09:39.508614
+CAR,"Avis Budget Group, Inc.",Sarma Karthik R.,,Buy,55500.0,33.78,2020-08-24 17:41:48,2020-08-25 01:09:39.508669
+CBGL,"Cannabis Global, Inc.","Ghs Investments, Llc",,Sell,39747.0,0.17,2020-08-20 17:43:08,2020-08-25 01:09:39.508730
+CBGL,"Cannabis Global, Inc.","Ghs Investments, Llc",,Sell,28679.0,0.16,2020-08-21 17:43:08,2020-08-25 01:09:39.508784
+TRUP,"Trupanion, Inc.",Plouf Tricia  ,Chief Financial Officer,Sell,300.0,58.81,2020-08-20 17:44:28,2020-08-25 01:09:39.508847
+RAND,Rand Capital Corp,Gusky Adam Samuel,,Buy,1278.0,11.2,2020-08-21 17:45:18,2020-08-25 01:09:39.508908
+RAND,Rand Capital Corp,Gusky Adam Samuel,,Buy,1019.0,11.62,2020-08-24 17:45:18,2020-08-25 01:09:39.508966
+RAND,Rand Capital Corp,Gusky Adam Samuel,,Buy,25.0,11.21,2020-08-20 17:45:18,2020-08-25 01:09:39.509020
+ABMD,Abiomed Inc,Minogue Michael R  ,"Chairman, President, CEO",Options Excersise,40000.0,22.44,2020-08-21 17:45:44,2020-08-25 01:09:39.509082
+ABMD,Abiomed Inc,Minogue Michael R  ,"Chairman, President, CEO",Sell,60000.0,311.67,2020-08-20 17:45:44,2020-08-25 01:09:39.509140
+ABMD,Abiomed Inc,Minogue Michael R  ,"Chairman, President, CEO",Sell,40000.0,307.32,2020-08-21 17:45:44,2020-08-25 01:09:39.509192
+ABMD,Abiomed Inc,Minogue Michael R  ,"Chairman, President, CEO",Options Excersise,60000.0,22.44,2020-08-20 17:45:44,2020-08-25 01:09:39.509246
+BYND,"Beyond Meat, Inc.",Witteman Teri L  ,"General Counsel, Secretary",Sell,1969.0,126.24,2020-08-24 17:54:23,2020-08-25 01:09:39.509309
+FFIN,First Financial Bankshares Inc,Denny Michael B.  ,Director,Buy,1000.0,30.73,2020-08-24 17:55:56,2020-08-25 01:09:39.509375
+CBFV,"Cb Financial Services, Inc.",Lacarte John J,,Buy,11500.0,18.25,2020-08-21 17:59:38,2020-08-25 01:09:39.509439
+CBFV,"Cb Financial Services, Inc.",Lacarte John J,,Buy,12000.0,18.25,2020-08-20 17:59:38,2020-08-25 01:09:39.509496
+Z AND ZG,"Zillow Group, Inc.",Frink Lloyd D  ,Chairman & President,Sell,7500.0,83.75,2020-08-24 18:03:42,2020-08-25 01:09:39.509559
+Z AND ZG,"Zillow Group, Inc.",Frink Lloyd D  ,Chairman & President,Sell,89.0,85.0,2020-08-20 18:03:42,2020-08-25 01:09:39.509614
+PACB,"Pacific Biosciences Of California, Inc.",Hunkapiller Michael  ,CEO & President,Sell,189847.0,6.57,2020-08-21 18:04:39,2020-08-25 01:09:39.509676
+PACB,"Pacific Biosciences Of California, Inc.",Hunkapiller Michael  ,CEO & President,Sell,256554.0,6.47,2020-08-20 18:04:39,2020-08-25 01:09:39.509730
+ELAN,Elanco Animal Health Inc,Hoover R David  ,See Remarks,Buy,10000.0,26.94,2020-08-21 18:05:05,2020-08-25 01:09:39.509800
+NATR,Natures Sunshine Products Inc,Baty Joseph W  ,EVP & Chief Financial Officer,Options Excersise,4259.0,0.0,2020-08-20 18:05:07,2020-08-25 01:09:39.509870
+VIRC,Virco Mfg Corporation,Virtue Douglas A  ,Executive Vice President,Buy,16500.0,2.23,2020-08-21 18:07:08,2020-08-25 01:09:39.509938
+GNMK,"Genmark Diagnostics, Inc.",Ek John Frederick  ,Chief Financial Officer,Sell,2591.0,15.69,2020-08-20 18:07:11,2020-08-25 01:09:39.510002
+GNMK,"Genmark Diagnostics, Inc.",Jensen Tyler  ,"SVP, Engineering and Tech Dev",Sell,1184.0,15.41,2020-08-20 18:07:18,2020-08-25 01:09:39.510057
+GNMK,"Genmark Diagnostics, Inc.",Stier Eric  ,SVP & General Counsel,Sell,1606.0,15.41,2020-08-20 18:08:38,2020-08-25 01:09:39.510120
+NATR,Natures Sunshine Products Inc,Moorehead Terrence  ,CEO,Options Excersise,9319.0,0.0,2020-08-20 18:08:38,2020-08-25 01:09:39.691229
+LULU,Lululemon Athletica Inc.,Mcdonald Calvin  ,Chief Executive Officer,Options Excersise,14488.0,0.0,2020-08-20 18:09:08,2020-08-25 01:09:39.691344
+VIRC,Virco Mfg Corporation,Virtue Robert A  ,President & CEO & Chairman,Buy,16500.0,2.23,2020-08-21 18:09:16,2020-08-25 01:09:39.691420
+VIRC,Virco Mfg Corporation,Rudkin Donald R  ,Director,Sell,33000.0,2.23,2020-08-21 18:10:21,2020-08-25 01:09:39.691482
+GNMK,"Genmark Diagnostics, Inc.",Winkler Sarah Hollis  ,"VP, Human Resources",Sell,677.0,15.41,2020-08-20 18:10:24,2020-08-25 01:09:39.691549
+GNMK,"Genmark Diagnostics, Inc.",Mitchell Brian Andrew  ,"SVP, Operations",Sell,2997.0,15.62,2020-08-21 18:11:51,2020-08-25 01:09:39.691608
+GNMK,"Genmark Diagnostics, Inc.",Mitchell Brian Andrew  ,"SVP, Operations",Sell,1691.0,15.41,2020-08-20 18:11:51,2020-08-25 01:09:39.691666
+GNMK,"Genmark Diagnostics, Inc.",Maderazo Alan Baer  ,"VP, Qual, Reg, & Clin Affairs",Sell,1353.0,15.41,2020-08-20 18:12:05,2020-08-25 01:09:39.691723
+ISDR,Issuer Direct Corp,Frank Eric Alan,,Sell,5000.0,15.57,2020-08-21 18:12:06,2020-08-25 01:09:39.691814
+GNMK,"Genmark Diagnostics, Inc.",Mendel Scott  ,President & CEO,Sell,2988.0,15.41,2020-08-20 18:13:07,2020-08-25 01:09:39.691883
+REGN,"Regeneron Pharmaceuticals, Inc.",Sing George L  ,Director,Sell,20037.0,594.91,2020-08-24 18:13:45,2020-08-25 01:09:39.691955
+REGN,"Regeneron Pharmaceuticals, Inc.",Sing George L  ,Director,Options Excersise,10037.0,177.82,2020-08-24 18:13:45,2020-08-25 01:09:39.692045
+REGN,"Regeneron Pharmaceuticals, Inc.",Sing George L  ,Director,Sell,19963.0,606.58,2020-08-21 18:13:45,2020-08-25 01:09:39.692104
+REGN,"Regeneron Pharmaceuticals, Inc.",Sing George L  ,Director,Sell,21000.0,617.45,2020-08-20 18:13:45,2020-08-25 01:09:39.692166
+REGN,"Regeneron Pharmaceuticals, Inc.",Sing George L  ,Director,Options Excersise,10000.0,57.11,2020-08-20 18:13:45,2020-08-25 01:09:39.692224
+REGN,"Regeneron Pharmaceuticals, Inc.",Sing George L  ,Director,Options Excersise,9963.0,117.47,2020-08-21 18:13:45,2020-08-25 01:09:39.692284
+DIOD,Diodes Inc /del/,Soong Raymond  ,Other,Sell,30745.0,50.12,2020-08-24 18:16:07,2020-08-25 01:09:39.692352
+DIOD,Diodes Inc /del/,Soong Raymond  ,Other,Sell,1006.0,50.0,2020-08-20 18:16:07,2020-08-25 01:09:39.692413
+FTK,Flotek Industries Inc/cn/,Agadi Harshavardhan V,,Buy,1000.0,2.06,2020-08-21 18:17:33,2020-08-25 01:09:39.692485
+FTK,Flotek Industries Inc/cn/,Agadi Harshavardhan V,,Buy,5000.0,2.06,2020-08-24 18:17:33,2020-08-25 01:09:39.692551
+FTK,Flotek Industries Inc/cn/,Nierenberg David,,Buy,317792.0,2.11,2020-08-24 18:21:16,2020-08-25 01:09:39.692611
+FTK,Flotek Industries Inc/cn/,Nierenberg David,,Buy,187355.0,1.95,2020-08-21 18:21:16,2020-08-25 01:09:39.692670
+FTK,Flotek Industries Inc/cn/,Nierenberg David,,Buy,185000.0,1.85,2020-08-20 18:21:16,2020-08-25 01:09:39.692729
+TBPH,"Theravance Biopharma, Inc.",Haumann Brett K  ,Chief Medical Officer,Sell,25000.0,18.29,2020-08-21 18:21:57,2020-08-25 01:09:39.692796
+RYN,Rayonier Inc,Rogers W. Rhett  ,"VP, Portfolio Management",Options Excersise,1468.0,27.22,2020-08-21 18:25:15,2020-08-25 01:09:39.692867
+RYN,Rayonier Inc,Rogers W. Rhett  ,"VP, Portfolio Management",Sell,1468.0,29.55,2020-08-21 18:25:15,2020-08-25 01:09:39.692927
+PWR,"Quanta Services, Inc.",Conaway John Michal,,Buy,10.0,40.53,2020-07-20 18:26:19,2020-08-25 01:09:39.693000
+TWLO,Twilio Inc,Smith Karyn  ,General Counsel and Secretary,Sell,1709.0,248.02,2020-08-20 18:29:29,2020-08-25 01:09:39.693069
+LOAC,Longevity Acquisition Corp,Glazer Paul J  ,10% Owner,Sell,1.0,10.75,2020-08-20 18:30:44,2020-08-25 01:09:39.693141
+TWLO,Twilio Inc,Shipchandler Khozema  ,Chief Financial Officer,Options Excersise,3225.0,76.63,2020-08-20 18:34:10,2020-08-25 01:09:39.693209
+TWLO,Twilio Inc,Shipchandler Khozema  ,Chief Financial Officer,Sell,6808.0,253.83,2020-08-20 18:34:10,2020-08-25 01:09:39.693270
+FTNT,"Fortinet, Inc.",Whittle John  ,"VP Corp Dev&Strat Alliance,GC",Sell,700.0,133.83,2020-08-21 18:35:02,2020-08-25 01:09:39.693339
+FTNT,"Fortinet, Inc.",Whittle John  ,"VP Corp Dev&Strat Alliance,GC",Sell,1840.0,131.37,2020-08-20 18:35:02,2020-08-25 01:09:39.693399
+FTNT,"Fortinet, Inc.",Whittle John  ,"VP Corp Dev&Strat Alliance,GC",Options Excersise,700.0,84.49,2020-08-21 18:35:02,2020-08-25 01:09:39.693459
+FTNT,"Fortinet, Inc.",Whittle John  ,"VP Corp Dev&Strat Alliance,GC",Options Excersise,1840.0,43.15,2020-08-20 18:35:02,2020-08-25 01:09:39.693520
+PLAN,"Anaplan, Inc.",Calderoni Frank  ,Chairman and CEO,Sell,52472.0,46.16,2020-08-21 18:35:14,2020-08-25 01:09:39.693588
+PLAN,"Anaplan, Inc.",Calderoni Frank  ,Chairman and CEO,Options Excersise,101563.0,0.0,2020-08-20 18:35:14,2020-08-25 01:09:39.693646
+TFC,Truist Financial Corp,Thompson Thomas Nichols  ,Director,Buy,10000.0,25.0,2020-05-19 18:35:28,2020-08-25 01:09:39.693716
+TFC,Truist Financial Corp,Thompson Thomas Nichols  ,Director,Buy,6000.0,25.0,2020-07-30 18:35:28,2020-08-25 01:09:39.693778
+TYME,"Tyme Technologies, Inc.",Demurjian Michael  ,10% Owner,Sell,20000.0,1.17,2020-08-24 18:36:31,2020-08-25 01:09:39.693848
+TBPH,"Theravance Biopharma, Inc.",Worboys Philip D  ,"SVP, Research & Transl Science",Sell,17103.0,18.0,2020-08-20 18:38:18,2020-08-25 01:09:39.693921
+TWLO,Twilio Inc,Hu George  ,Chief Operating Officer,Sell,7889.0,248.23,2020-08-20 18:39:25,2020-08-25 01:09:39.693991
+FTNT,"Fortinet, Inc.",Paisley Christopher B  ,Director,Sell,750.0,133.83,2020-08-21 18:39:52,2020-08-25 01:09:39.694061
+PRTS,"Carparts.com, Inc.",Peker Lev  ,Chief Executive Officer,Options Excersise,308849.0,0.97,2020-08-20 18:43:22,2020-08-25 01:09:39.694130
+PGNY,"Progyny, Inc.",Bealer Jennifer  ,"EVP, General Counsel",Options Excersise,632.0,3.96,2020-08-20 18:45:40,2020-08-25 01:09:39.694198
+PGNY,"Progyny, Inc.",Bealer Jennifer  ,"EVP, General Counsel",Sell,281.0,31.2,2020-08-20 18:45:40,2020-08-25 01:09:39.694257
+BJ,"Bj's Wholesale Club Holdings, Inc.",Felice Laura L.  ,"SVP, Controller",Options Excersise,7000.0,7.0,2020-08-20 18:48:28,2020-08-25 01:09:39.694326
+BJ,"Bj's Wholesale Club Holdings, Inc.",Felice Laura L.  ,"SVP, Controller",Sell,7000.0,43.83,2020-08-20 18:48:28,2020-08-25 01:09:39.694387
+BJ,"Bj's Wholesale Club Holdings, Inc.",Baldwin Christopher J,,Sell,218220.0,43.74,2020-08-20 18:48:53,2020-08-25 01:09:39.694445
+SIC,"Select Interior Concepts, Inc.",Riley Bryant R,,Buy,6314.0,5.85,2020-08-24 18:51:28,2020-08-25 01:09:39.694541
+SIC,"Select Interior Concepts, Inc.",Riley Bryant R,,Buy,95950.0,5.83,2020-08-21 18:51:28,2020-08-25 01:09:39.694603
+GSHD,"Goosehead Insurance, Inc.",Lane Peter R.,,Options Excersise,30000.0,10.0,2020-08-20 19:01:23,2020-08-25 01:09:39.694676
+GSHD,"Goosehead Insurance, Inc.",Lane Peter R.,,Sell,30000.0,100.8,2020-08-20 19:01:23,2020-08-25 01:09:39.694737
+GSHD,"Goosehead Insurance, Inc.",Reid James,,Options Excersise,10000.0,10.0,2020-08-20 19:01:27,2020-08-25 01:09:39.694796
+GSHD,"Goosehead Insurance, Inc.",Reid James,,Sell,10000.0,100.31,2020-08-20 19:01:27,2020-08-25 01:09:39.694855
+GSHD,"Goosehead Insurance, Inc.",Miller Mark,,Options Excersise,902.0,10.0,2020-08-20 19:01:46,2020-08-25 01:09:39.694913
+GSHD,"Goosehead Insurance, Inc.",Miller Mark,,Sell,902.0,101.0,2020-08-20 19:01:46,2020-08-25 01:09:39.694975
+PHAS,Phasebio Pharmaceuticals Inc,Mow Jonathan P  ,Chief Executive Officer,Options Excersise,10000.0,1.24,2020-08-21 19:04:37,2020-08-25 01:09:39.695048
+CUTR,Cutera Inc,Zanotti Katherine S  ,Director,Buy,3085.0,16.36,2020-08-21 19:07:11,2020-08-25 01:09:39.695126
+CRM,"Salesforce.com, Inc.",Hassenfeld Alan G  ,Director,Options Excersise,514.0,0.0,2020-08-22 19:08:56,2020-08-25 01:09:39.695236
+CRM,"Salesforce.com, Inc.",Conway Craig  ,Director,Options Excersise,514.0,0.0,2020-08-22 19:11:00,2020-08-25 01:09:39.695305
+CRM,"Salesforce.com, Inc.",Kroes Neelie  ,Director,Options Excersise,514.0,0.0,2020-08-22 19:13:22,2020-08-25 01:09:39.695372
+CRM,"Salesforce.com, Inc.",Powell Colin  ,Director,Options Excersise,514.0,0.0,2020-08-22 19:14:34,2020-08-25 01:09:39.695433
+CRM,"Salesforce.com, Inc.",Robertson Sanford  ,Director,Options Excersise,514.0,0.0,2020-08-22 19:17:28,2020-08-25 01:09:39.695495
+FLDM,Fluidigm Corp,Jog Vikram  ,Chief Financial Officer,Options Excersise,6650.0,0.0,2020-08-20 19:19:01,2020-08-25 01:09:39.695569
+FLDM,Fluidigm Corp,Kreger Bradley Allen  ,"SVP, Global Operations",Options Excersise,5362.0,0.0,2020-08-20 19:19:41,2020-08-25 01:09:39.695634
+CRM,"Salesforce.com, Inc.",Roos John Victor  ,Director,Options Excersise,514.0,0.0,2020-08-22 19:19:47,2020-08-25 01:09:39.695707
+FLDM,Fluidigm Corp,Linthwaite Stephen Christopher  ,President & CEO,Options Excersise,19445.0,0.0,2020-08-20 19:20:03,2020-08-25 01:09:39.695783
+FLDM,Fluidigm Corp,Mccracken Colin  ,Chief Commercial Officer,Options Excersise,4128.0,0.0,2020-08-20 19:20:03,2020-08-25 01:09:39.695868
+GHL,Greenhill & Co Inc,Bok Scott L  ,Chairman & CEO,Buy,34600.0,11.33,2020-08-24 19:20:25,2020-08-25 01:09:39.695947
+GHL,Greenhill & Co Inc,Bok Scott L  ,Chairman & CEO,Buy,28745.0,11.07,2020-08-21 19:20:25,2020-08-25 01:09:39.696012
+GHL,Greenhill & Co Inc,Bok Scott L  ,Chairman & CEO,Buy,2616.0,11.23,2020-08-20 19:20:25,2020-08-25 01:09:39.696074
+CRM,"Salesforce.com, Inc.",Washington Robin L  ,Director,Options Excersise,514.0,0.0,2020-08-22 19:22:08,2020-08-25 01:09:39.696146
+CRM,"Salesforce.com, Inc.",Webb Maynard G Jr  ,Director,Options Excersise,514.0,0.0,2020-08-22 19:24:55,2020-08-25 01:09:39.696209
+CRM,"Salesforce.com, Inc.",Benioff Marc  ,Chair of the Board & CEO,Sell,15000.0,207.5,2020-08-24 19:25:36,2020-08-25 01:09:39.696268
+CRM,"Salesforce.com, Inc.",Benioff Marc  ,Chair of the Board & CEO,Options Excersise,10000.0,52.3,2020-08-24 19:25:36,2020-08-25 01:09:39.696329
+CRM,"Salesforce.com, Inc.",Benioff Marc  ,Chair of the Board & CEO,Sell,15000.0,208.35,2020-08-21 19:25:36,2020-08-25 01:09:39.696390
+CRM,"Salesforce.com, Inc.",Benioff Marc  ,Chair of the Board & CEO,Options Excersise,10000.0,52.3,2020-08-21 19:25:36,2020-08-25 01:09:39.696449
+CRM,"Salesforce.com, Inc.",Wojcicki Susan  ,Director,Options Excersise,514.0,0.0,2020-08-22 19:28:20,2020-08-25 01:09:39.696509
+CRM,"Salesforce.com, Inc.",Weaver Amy E  ,President and CLO,Sell,416.0,207.23,2020-08-24 19:33:21,2020-08-25 01:09:39.696568
+CRM,"Salesforce.com, Inc.",Weaver Amy E  ,President and CLO,Options Excersise,827.0,0.0,2020-08-22 19:33:21,2020-08-25 01:09:39.696628
+CRM,"Salesforce.com, Inc.",Harris Parker  ,Co-Founder and CTO,Options Excersise,1654.0,0.0,2020-08-22 19:35:09,2020-08-25 01:09:39.696689
+CRM,"Salesforce.com, Inc.",Harris Parker  ,Co-Founder and CTO,Sell,831.0,207.23,2020-08-24 19:35:09,2020-08-25 01:09:39.696752
+GNMK,"Genmark Diagnostics, Inc.",Gleeson Michael  ,"SVP, Corp. Accounts",Sell,1691.0,15.41,2020-08-20 19:37:46,2020-08-25 01:09:39.696821
+CRM,"Salesforce.com, Inc.",Hawkins Mark J  ,President and CFO,Sell,624.0,207.23,2020-08-24 19:45:18,2020-08-25 01:09:39.696895
+CRM,"Salesforce.com, Inc.",Hawkins Mark J  ,President and CFO,Options Excersise,1241.0,0.0,2020-08-22 19:45:18,2020-08-25 01:09:39.696954
+CRM,"Salesforce.com, Inc.",Tallapragada Srinivas  ,Pres/Chief Engineering Officer,Options Excersise,1709.0,0.0,2020-08-22 19:49:59,2020-08-25 01:09:39.697014
+CRM,"Salesforce.com, Inc.",Tallapragada Srinivas  ,Pres/Chief Engineering Officer,Sell,859.0,207.23,2020-08-24 19:49:59,2020-08-25 01:09:39.697074
+ANET,"Arista Networks, Inc.",Giancarlo Charles H  ,Director,Options Excersise,219.0,0.0,2020-08-20 19:52:19,2020-08-25 01:09:39.697143
+ANET,"Arista Networks, Inc.",Mather Ann  ,Director,Options Excersise,219.0,0.0,2020-08-20 19:52:34,2020-08-25 01:09:39.697203
+ANET,"Arista Networks, Inc.",Mather Ann  ,Director,Sell,110.0,219.51,2020-08-20 19:52:34,2020-08-25 01:09:39.697260
+ANET,"Arista Networks, Inc.",Battles Kelly Bodnar  ,Director,Options Excersise,255.0,0.0,2020-08-20 19:52:43,2020-08-25 01:09:39.697318
+ANET,"Arista Networks, Inc.",Templeton Mark B  ,Director,Options Excersise,262.0,0.0,2020-08-20 19:53:02,2020-08-25 01:09:39.697380
+ANET,"Arista Networks, Inc.",Theodosopoulos Nikos  ,Director,Options Excersise,262.0,0.0,2020-08-20 19:53:15,2020-08-25 01:09:39.697439
+ANET,"Arista Networks, Inc.",Theodosopoulos Nikos  ,Director,Options Excersise,1250.0,34.12,2020-08-21 19:53:15,2020-08-25 01:09:39.697498
+ANET,"Arista Networks, Inc.",Theodosopoulos Nikos  ,Director,Sell,1250.0,220.97,2020-08-21 19:53:15,2020-08-25 01:09:39.697558
+ANET,"Arista Networks, Inc.",Scheinman Daniel  ,Director,Options Excersise,219.0,0.0,2020-08-20 19:53:26,2020-08-25 01:09:39.697616
+CRM,"Salesforce.com, Inc.",Allanson Joe  ,Chief Accounting Officer,Sell,116.0,207.23,2020-08-24 19:53:29,2020-08-25 01:09:39.697685
+CRM,"Salesforce.com, Inc.",Allanson Joe  ,Chief Accounting Officer,Options Excersise,331.0,0.0,2020-08-22 19:53:29,2020-08-25 01:09:39.697746
+ANET,"Arista Networks, Inc.",Duda Kenneth  ,CTO and SVP Software Eng.,Options Excersise,2000.0,0.0,2020-08-20 19:54:51,2020-08-25 01:09:39.697816
+ANET,"Arista Networks, Inc.",Bechtolsheim Andreas  ,Chief Development Officer,Options Excersise,3312.0,0.0,2020-08-20 19:54:56,2020-08-25 01:09:39.860807
+ANET,"Arista Networks, Inc.",Mccool John F  ,Chief Platform Officer,Options Excersise,2584.0,44.25,2020-08-20 19:55:06,2020-08-25 01:09:39.860897
+ANET,"Arista Networks, Inc.",Mccool John F  ,Chief Platform Officer,Sell,84.0,220.0,2020-08-20 19:55:06,2020-08-25 01:09:39.860954
+ANET,"Arista Networks, Inc.",Brennan Ita M  ,"Senior Vice President, CFO",Options Excersise,1287.0,0.0,2020-08-20 19:55:16,2020-08-25 01:09:39.861004
+ANET,"Arista Networks, Inc.",Ullal Jayshree  ,President and CEO,Options Excersise,3312.0,0.0,2020-08-20 19:56:17,2020-08-25 01:09:39.861054
+ANET,"Arista Networks, Inc.",Sadana Anshul  ,"SVP, Chief Operating Officer",Options Excersise,3412.0,0.0,2020-08-20 19:56:32,2020-08-25 01:09:39.861105
+ANET,"Arista Networks, Inc.",Taxay Marc  ,SVP and General Counsel,Options Excersise,1762.0,0.0,2020-08-20 19:56:46,2020-08-25 01:09:39.861155
+APPF,Appfolio Inc,Schauser Klaus,,Sell,4761.0,170.14,2020-08-20 20:00:47,2020-08-25 01:09:39.861212
+APPF,Appfolio Inc,Schauser Klaus,,Sell,1104.0,170.22,2020-08-24 20:00:47,2020-08-25 01:09:39.861262
+ADPT,Adaptive Biotechnologies Corp,Robins Harlan S  ,Chief Scientific Officer,Options Excersise,11100.0,6.32,2020-08-20 20:00:49,2020-08-25 01:09:39.861319
+ADPT,Adaptive Biotechnologies Corp,Robins Harlan S  ,Chief Scientific Officer,Options Excersise,11100.0,6.32,2020-08-21 20:00:49,2020-08-25 01:09:39.861371
+ADPT,Adaptive Biotechnologies Corp,Robins Harlan S  ,Chief Scientific Officer,Sell,11100.0,42.34,2020-08-19 20:00:49,2020-08-25 01:09:39.861444
+ADPT,Adaptive Biotechnologies Corp,Robins Harlan S  ,Chief Scientific Officer,Sell,11100.0,42.99,2020-08-20 20:00:49,2020-08-25 01:09:39.861494
+ADPT,Adaptive Biotechnologies Corp,Robins Harlan S  ,Chief Scientific Officer,Sell,11100.0,42.86,2020-08-21 20:00:49,2020-08-25 01:09:39.861542
+ADPT,Adaptive Biotechnologies Corp,Robins Harlan S  ,Chief Scientific Officer,Options Excersise,11100.0,6.32,2020-08-19 20:00:49,2020-08-25 01:09:39.861591
+ADPT,Adaptive Biotechnologies Corp,Taylor Stacy L  ,SVP and General Counsel,Options Excersise,2880.0,7.17,2020-08-24 20:00:49,2020-08-25 01:09:39.861640
+ADPT,Adaptive Biotechnologies Corp,Taylor Stacy L  ,SVP and General Counsel,Sell,2880.0,42.78,2020-08-24 20:00:49,2020-08-25 01:09:39.861690
+HCI,"Hci Group, Inc.",Watts Susan  ,Director,Buy,260.0,56.63,2020-08-24 20:03:48,2020-08-25 01:09:39.861750
+HCI,"Hci Group, Inc.",Watts Susan  ,Director,Buy,175.0,55.05,2020-08-20 20:03:48,2020-08-25 01:09:39.861802
+TWTR,"Twitter, Inc.",Montano Michael  ,Engineering Lead,Sell,1750.0,38.62,2020-08-20 20:05:54,2020-08-25 01:09:39.861861
+URG,Ur-energy Inc,Boberg W. William,,Options Excersise,13914.0,0.55,2020-08-21 20:10:13,2020-08-25 01:09:39.861968
+REAL,"Therealreal, Inc.",Wainwright Julie  ,"CEO, President and Chairperson",Sell,6997.0,16.99,2020-08-20 20:12:11,2020-08-25 01:09:39.862030
+URG,Ur-energy Inc,Cash John  ,See Remarks,Options Excersise,11248.0,0.55,2020-08-21 20:12:23,2020-08-25 01:09:39.862089
+REAL,"Therealreal, Inc.",Gustke Matt  ,Chief Financial Officer,Sell,6488.0,17.0,2020-08-20 20:13:18,2020-08-25 01:09:39.862150
+URG,Ur-energy Inc,Chang Robby Sai Kit,,Options Excersise,10157.0,0.55,2020-08-21 20:13:51,2020-08-25 01:09:39.862208
+REAL,"Therealreal, Inc.",Sahi Levesque Rati  ,Chief Operating Officer,Sell,2799.0,17.0,2020-08-20 20:14:15,2020-08-25 01:09:39.862266
+REAL,"Therealreal, Inc.",Sahi Levesque Rati  ,Chief Operating Officer,Sell,5018.0,17.43,2020-08-24 20:14:15,2020-08-25 01:09:39.862318
+REAL,"Therealreal, Inc.",Bjork Fredrik  ,Chief Technology Officer,Sell,5018.0,17.08,2020-08-24 20:15:09,2020-08-25 01:09:39.862368
+REAL,"Therealreal, Inc.",Bjork Fredrik  ,Chief Technology Officer,Sell,2799.0,17.0,2020-08-20 20:15:09,2020-08-25 01:09:39.862422
+URG,Ur-energy Inc,Franklin James M.,,Options Excersise,10157.0,0.55,2020-08-21 20:15:13,2020-08-25 01:09:39.862480
+NET,"Cloudflare, Inc.",Prince Matthew  ,CEO & Chair of the Board,Sell,52385.0,38.3,2020-08-24 20:16:20,2020-08-25 01:09:39.862541
+NET,"Cloudflare, Inc.",Prince Matthew  ,CEO & Chair of the Board,Sell,52385.0,39.69,2020-08-21 20:16:20,2020-08-25 01:09:39.862592
+NET,"Cloudflare, Inc.",Prince Matthew  ,CEO & Chair of the Board,Sell,52385.0,40.18,2020-08-20 20:16:20,2020-08-25 01:09:39.862640
+URG,Ur-energy Inc,Goplerud Penne A  ,See Remarks,Options Excersise,12643.0,0.55,2020-08-21 20:16:40,2020-08-25 01:09:39.862696
+URG,Ur-energy Inc,Hatten Steven M.  ,Vice President of Operations,Options Excersise,11803.0,0.55,2020-08-21 20:17:02,2020-08-25 01:09:39.862747
+REAL,"Therealreal, Inc.",Lo Steve Ming  ,"VP, Chief Accounting Officer",Sell,2406.0,17.5,2020-08-24 20:18:13,2020-08-25 01:09:39.862806
+REAL,"Therealreal, Inc.",Lo Steve Ming  ,"VP, Chief Accounting Officer",Sell,1344.0,17.0,2020-08-20 20:18:13,2020-08-25 01:09:39.862855
+URG,Ur-energy Inc,Huber Gary C,,Options Excersise,13914.0,0.55,2020-08-21 20:19:02,2020-08-25 01:09:39.862911
+URG,Ur-energy Inc,Klenda Jeffrey T.  ,See Remarks,Options Excersise,19714.0,0.55,2020-08-21 20:19:26,2020-08-25 01:09:39.862960
+URG,Ur-energy Inc,Parker Thomas H,,Options Excersise,13914.0,0.55,2020-08-21 20:20:36,2020-08-25 01:09:39.863010
+URG,Ur-energy Inc,Smith Roger L.  ,CFO/Chief Admin. Officer,Options Excersise,14063.0,0.55,2020-08-21 20:21:48,2020-08-25 01:09:39.863059
+URG,Ur-energy Inc,Walker Kathy E,,Options Excersise,13914.0,0.55,2020-08-21 20:23:27,2020-08-25 01:09:39.863107
+LITE,Lumentum Holdings Inc.,Ali Wajid  ,EVP & Chief Financial Officer,Sell,6694.0,86.64,2020-08-24 20:24:02,2020-08-25 01:09:39.863163
+LITE,Lumentum Holdings Inc.,Lowe Alan S  ,Chief Executive Officer,Sell,18597.0,86.65,2020-08-24 20:27:38,2020-08-25 01:09:39.863212
+DNLI,Denali Therapeutics Inc.,Krognes Steve E.  ,CFO and Treasurer,Options Excersise,5643.0,0.0,2020-08-20 20:37:05,2020-08-25 01:09:39.863270
+DNLI,Denali Therapeutics Inc.,Schuth Alexander O.  ,COO and Secretary,Options Excersise,5643.0,0.0,2020-08-20 20:37:57,2020-08-25 01:09:39.863319
+DNLI,Denali Therapeutics Inc.,Ho Carole  ,Chief Medical Officer,Options Excersise,5643.0,0.0,2020-08-20 20:38:59,2020-08-25 01:09:39.863367
+PLMR,"Palomar Holdings, Inc.",Armstrong Mac  ,CEO and Chairman,Sell,12500.0,105.19,2020-08-21 20:47:16,2020-08-25 01:09:39.863424
+PLMR,"Palomar Holdings, Inc.",Fisher Heath A  ,President,Sell,5000.0,105.2,2020-08-21 20:47:17,2020-08-25 01:09:39.863474
+GERN,Geron Corp,O'farrell Elizabeth G.,,Buy,17441.0,1.73,2020-08-21 20:57:06,2020-08-25 01:09:39.863532

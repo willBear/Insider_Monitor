@@ -4,6 +4,7 @@ import psycopg2
 import requests
 import schedule
 import time
+import csv
 from init_database_postgre import load_db_credential_info
 
 insider_trades = []
@@ -68,7 +69,6 @@ def get_page_size(h1_content):
     :param h1_content: determine the total number of pages we have to scrape for
     :return: the number of pages that are contained in the report
     """
-
     # Iterate through each row and find 'page'
     for row in h1_content:
         # If contains pages, we assume its greater than 1 page
@@ -95,6 +95,19 @@ def update_insider_trades(db_host, db_user, db_password, db_name):
         cur = conn.cursor()
         cur.executemany(final_str, insider_trades)
 
+def write_to_csv():
+    #symbol, company, insider, insider_position, trade_type, trade_shares, trade_price, trade_date, now
+    insider_trade_fields = ["symbol","company","insider","insider_position","trade_type","trade_shares","trade_price",
+                            "trade_date","now"]
+    file_name = 'Insider_Trades.csv'
+
+    with open(file_name, 'w') as csvfile:
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(insider_trade_fields)
+        csvwriter.writerows(insider_trades)
+    print("Write to CSV Complete - The File name is: " + file_name)
+
+    return
 
 def main():
     response = requests.get("https://www.insider-monitor.com/insider_stock_trading_report.html")
@@ -129,14 +142,17 @@ def main():
 
     update_insider_trades(db_host, db_user, db_password, db_name)
 
+    write_to_csv()
+
     print('The Time is: ' + date_time + ' Parsed ' + str(page_size) + 'pages of insider trades')
 
 def scheduler():
-    schedule.every(1).minute.do(main)
+    schedule.every().day.at("11:55").do(main)
     while True:
         schedule.run_pending()
         time.sleep(1)
 
 
 if __name__ == "__main__":
-    scheduler()
+    # scheduler()
+    main()
