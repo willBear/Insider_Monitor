@@ -5,6 +5,7 @@ import requests
 import schedule
 import time
 import csv
+from os import path
 from init_database_postgre import load_db_credential_info
 
 insider_trades = []
@@ -95,19 +96,28 @@ def update_insider_trades(db_host, db_user, db_password, db_name):
         cur = conn.cursor()
         cur.executemany(final_str, insider_trades)
 
-def write_to_csv():
-    #symbol, company, insider, insider_position, trade_type, trade_shares, trade_price, trade_date, now
-    insider_trade_fields = ["symbol","company","insider","insider_position","trade_type","trade_shares","trade_price",
-                            "trade_date","now"]
-    file_name = 'Insider_Trades.csv'
 
-    with open(file_name, 'w') as csvfile:
-        csvwriter = csv.writer(csvfile)
-        csvwriter.writerow(insider_trade_fields)
-        csvwriter.writerows(insider_trades)
+def write_to_csv():
+    insider_trade_fields = ["symbol", "company", "insider", "insider_position", "trade_type", "trade_shares",
+                            "trade_price",
+                            "trade_date", "now"]
+    file_name = 'Insider_Trades.csv'
+    # Check for existence of CSV file
+    if path.exists(file_name):
+        print('Existing file is found, appending to last row')
+        with open(file_name, 'a+') as csvfile:
+            csvwriter = csv.writer(csvfile)
+            csvwriter.writerows(insider_trades)
+    else:
+        print("CSV File is not found, making a new file ")
+        with open(file_name, 'w') as csvfile:
+            csvwriter = csv.writer(csvfile)
+            csvwriter.writerow(insider_trade_fields)
+            csvwriter.writerows(insider_trades)
     print("Write to CSV Complete - The File name is: " + file_name)
 
     return
+
 
 def main():
     response = requests.get("https://www.insider-monitor.com/insider_stock_trading_report.html")
@@ -144,7 +154,8 @@ def main():
 
     write_to_csv()
 
-    print('The Time is: ' + date_time + ' Parsed ' + str(page_size) + 'pages of insider trades')
+    print('The Time is: ' + date_time + ' Parsed ' + str(page_size) + ' pages of insider trades')
+
 
 def scheduler():
     schedule.every().day.at("11:55").do(main)
