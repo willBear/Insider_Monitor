@@ -108,9 +108,19 @@ def main():
                 row_info = [x.text.strip() for x in trade]
                 # Parse the info from another python file
                 parse_row_info(row_info)
+
             current_page += 1
-            next_page_url = base_report_url + page_urls[0]
-            pass
+            # Concatenate next url
+            if len(page_urls) == 0:
+                break
+            else:
+                next_page_url = base_report_url + page_urls[0]
+                # Get rid of the next url
+                page_urls.pop(0)
+                response = requests.get(next_page_url)
+                soup = BeautifulSoup(response.text, features='html.parser')
+                table_body = soup.find_all('tr')[1:]
+        index += 1
 
     soup = BeautifulSoup(response.text, features="html.parser")
     table_body = soup.find_all('tr')[1:]
