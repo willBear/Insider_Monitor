@@ -7,7 +7,7 @@ insider_trades = []
 trading_activity = {'B': 'Buy', 'S': 'Sell', 'O': 'Options Excersise'}
 
 
-def parse_row_info(trades):
+def parse_row_info(trades, trade_type):
     """
     :param trades:
     Contains usually 7 indexes, which are:
@@ -55,7 +55,8 @@ def parse_row_info(trades):
     trade_date = datetime.strptime(trades[6], '%Y-%m-%d')
 
     insider_trades.append(
-        [symbol, company, insider, insider_position, trade_shares, trade_price, trade_value, trade_date, now])
+        [symbol, company, insider, insider_position, trade_type, trade_shares, trade_price, trade_value, trade_date,
+         now])
     return
 
 
@@ -79,7 +80,7 @@ def main():
     base_buy_url = 'https://www.insider-monitor.com/insiderbuy.php?days='
     base_report_url = 'https://www.insider-monitor.com/reports/'
     index = 1
-    while index < 10:
+    while index <= 10:
         # We navigate to the first day of insider buys
         url = base_buy_url + str(index)
 
@@ -107,7 +108,7 @@ def main():
                 # Go through each row in table and strip the text
                 row_info = [x.text.strip() for x in trade]
                 # Parse the info from another python file
-                parse_row_info(row_info)
+                parse_row_info(row_info, 'Buy')
 
             current_page += 1
             # Concatenate next url
