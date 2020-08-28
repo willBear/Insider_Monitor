@@ -3,7 +3,7 @@ from datetime import datetime
 import time
 import requests
 from init_database_postgre import load_db_credential_info
-from real_time_web_scraper import update_insider_trades
+from real_time_web_scraper import update_insider_trades, write_to_csv
 
 insider_trades = []
 trading_activity = {'B': 'Buy', 'S': 'Sell', 'O': 'Options Excersise'}
@@ -139,7 +139,10 @@ def main():
     db_host, db_user, db_password, db_name = load_db_credential_info(db_credential_info_p)
 
     # Call update insider trades to have it inserted into the dictionary
-    update_insider_trades(db_host, db_user, db_password, db_name, insider_trades)
+    # update_insider_trades(db_host, db_user, db_password, db_name, insider_trades)
+
+    # Write to CSV file for all the entries
+    write_to_csv(insider_trades)
 
 
 

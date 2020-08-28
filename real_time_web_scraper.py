@@ -99,9 +99,9 @@ def update_insider_trades(db_host, db_user, db_password, db_name, insider_trade_
     print("Insert into DB Completed, with " + str(len(insider_trade_dict)) + " entries")
 
 
-def write_to_csv():
+def write_to_csv(insider_trades_dict):
     insider_trade_fields = ["symbol", "company", "insider", "insider_position", "trade_type", "trade_shares",
-                            "trade_price",
+                            "trade_price","trade_value",
                             "trade_date", "now"]
     file_name = 'Insider_Trades.csv'
     # Check for existence of CSV file
@@ -115,7 +115,7 @@ def write_to_csv():
         with open(file_name, 'w') as csvfile:
             csvwriter = csv.writer(csvfile)
             csvwriter.writerow(insider_trade_fields)
-            csvwriter.writerows(insider_trades)
+            csvwriter.writerows(insider_trades_dict)
     print("Write to CSV Complete - The File name is: " + file_name)
 
     return
