@@ -63,16 +63,27 @@ def parse_row_info(trades, trade_type):
 
 
 def find_pages_of_trades(soup_body):
+    """
+    This function is used to determine the number of pages given from the bs4 search, it will then store all URLs
+    of the subsequent links of the report.
+
+    :param soup_body: Text body from BS4 that contains linkp, it will contain hrefs to all other pages of this day
+    :return: A list of href urls for later concatenation and length of pages
+    """
     length = 0
     url_dict = []
 
     for row in soup_body:
+        # Find all rows
         urls = row.find_all('a', href=True)
         for row in urls:
             next_page_url = row['href']
+
+            # Check for redundancy
             if next_page_url in url_dict:
                 pass
             else:
+                # If not in the dictionary, then it is a unique link
                 url_dict.append(next_page_url)
             length += 1
     return url_dict, length
@@ -113,14 +124,18 @@ def main():
                 parse_row_info(row_info, 'Buy')
 
             current_page += 1
-            # Concatenate next url
+            # Concatenate next url, if we do not see any additional URLS it means we are at the end of the pages
             if len(page_urls) == 0:
                 break
             else:
+                # Concactenate for our next url redirect
                 next_page_url = base_report_url + page_urls[0]
-                # Get rid of the next url
+                # Get rid of the next url in the list
                 page_urls.pop(0)
+
+                # Request for another page on the same day
                 response = requests.get(next_page_url)
+
                 soup = BeautifulSoup(response.text, features='html.parser')
                 table_body = soup.find_all('tr')[1:]
         index += 1
@@ -139,13 +154,10 @@ def main():
     db_host, db_user, db_password, db_name = load_db_credential_info(db_credential_info_p)
 
     # Call update insider trades to have it inserted into the dictionary
-    # update_insider_trades(db_host, db_user, db_password, db_name, insider_trades)
+    update_insider_trades(db_host, db_user, db_password, db_name, insider_trades)
 
     # Write to CSV file for all the entries
     write_to_csv(insider_trades)
-
-
-
 
 
 if __name__ == "__main__":
