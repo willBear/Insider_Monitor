@@ -17,23 +17,27 @@ def parse_row_info(trades, trade_type):
     Value, Trade Date & Time
     :return:
     """
+    # Find the time now, in UTC time
     now = datetime.utcnow()
+
     # Check to see if it contains symbol and company info, otherwise use previous
     if len(trades[-1]) == 0:
         return
-
+    # If it contains content, that means we have a new equity / company
     if len(trades[0]) > 1:
         symbol = trades[0]
         company = trades[1].split('  ')
         company = company[0]
+    # Otherwise, we use the latest entry for company and symbol
     else:
         last_trade = insider_trades[-1]
         symbol = last_trade[0]
         company = last_trade[1]
-
+    # If we detect a '(' in the name, then we can parse out the position of the insider
     if '(' in trades[2]:
         # insider, insider_position = trades[2].split("(")
         info = trades[2].split("(")
+
         if len(info) > 2:
             insider = info[0:-2]
             insider_position = info[-1]
@@ -48,8 +52,10 @@ def parse_row_info(trades, trade_type):
 
     insider_position = insider_position[:-1]
 
+    # Assign values to index 3 to 5 of the trades array
     trade_shares, trade_price, trade_value = trades[3:6]
 
+    # Convert all values to float
     trade_value = float(trade_value.replace(",", ""))
     trade_shares = float(trade_shares.replace(",", ""))
     trade_price = float(trade_price.replace(",", ""))
