@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import time
 import requests
+from init_database_postgre import load_db_credential_info
+from real_time_web_scraper import update_insider_trades
 
 insider_trades = []
 trading_activity = {'B': 'Buy', 'S': 'Sell', 'O': 'Options Excersise'}
@@ -123,9 +125,24 @@ def main():
                 table_body = soup.find_all('tr')[1:]
         index += 1
 
-    soup = BeautifulSoup(response.text, features="html.parser")
-    table_body = soup.find_all('tr')[1:]
-    pass
+    '''
+    Now that we have processed the past 10 days worth of trade, we will insert it 
+    into the dictionary
+    '''
+    # name of our database credential files (.txt)
+    db_credential_info = "database_info.txt"
+
+    # create a path version of our text file
+    db_credential_info_p = '/' + db_credential_info
+
+    # create our instance variables for host, username, password and database name
+    db_host, db_user, db_password, db_name = load_db_credential_info(db_credential_info_p)
+
+    # Call update insider trades to have it inserted into the dictionary
+    update_insider_trades(db_host, db_user, db_password, db_name, insider_trades)
+
+
+
 
 
 if __name__ == "__main__":

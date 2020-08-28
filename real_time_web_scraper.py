@@ -84,17 +84,19 @@ def get_page_size(h1_content):
             return 1
 
 
-def update_insider_trades(db_host, db_user, db_password, db_name):
+def update_insider_trades(db_host, db_user, db_password, db_name, insider_trade_dict):
     # Connect to our PostgreSQL database
     conn = psycopg2.connect(host=db_host, database=db_name, user=db_user, password=db_password)
 
     column_str = (
-        'symbol,company,insider_name,insider_position,insider_order_type,trade_shares_quantity,trade_shares_price,reported_date,created_date')
-    insert_str = ("%s," * 9)[:-1]
+        'symbol,company,insider_name,insider_position,insider_order_type,trade_shares_quantity,trade_shares_price,'
+        'trade_value,reported_date,created_date')
+    insert_str = ("%s," * 10)[:-1]
     final_str = "INSERT INTO insider_trades (%s) VALUES (%s)" % (column_str, insert_str)
     with conn:
         cur = conn.cursor()
-        cur.executemany(final_str, insider_trades)
+        cur.executemany(final_str, insider_trade_dict)
+    print("Insert into DB Completed, with " + str(len(insider_trade_dict)) + " entries")
 
 
 def write_to_csv():
